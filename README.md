@@ -148,6 +148,77 @@ Ya te la sabes
 Hashing uses an algorithm to convert text to a unique fixed-length value called a hash. Each time the same text is hashed using the same algorithm, the same hash value is produced. That hash can then be used as a unique identifier of its associated data.
 
 
+# Describe compliance concepts
+
+Esto trata de como se potegen los datos y conceptos de cumplimiento(por ejemplo en francia no se pueden sacar los datos de ese pais de los usuarios todo debe de estar guardado en servidores que esten dentreo de Francia).
+
+Government agencies and industry groups have issued regulations to help protect and govern the use of data. From personal and financial information to data protection and privacy, organizations can be accountable for meeting dozens of regulations to be compliant. Listed below are some important concepts and terms that relate to data compliance.
+
+## Conceptos Generales importantes ( definidos pro azure en su material de lectura)
+
+## Data residency -
+
+When it comes to compliance, data residency regulations govern the physical locations where data can be stored and how and when it can be transferred, processed, or accessed internationally. These regulations can differ significantly depending on jurisdiction.
+
+## Data sovereignty 
+
+- Another important consideration is data sovereignty, the concept that data, particularly personal data, is subject to the laws and regulations of the country/region in which it's physically collected, held, or processed. This can add a layer of complexity when it comes to compliance because the same piece of data can be collected in one location, stored in another, and processed in still another; making it subject to laws from different countries/regions.
+
+## Data privacy - 
+
+Providing notice and being transparent about the collection, processing, use, and sharing of personal data are fundamental principles of privacy laws and regulations. Personal data means any information relating to an identified or identifiable natural person. Privacy laws previously referenced "PII" or "personally identifiable information" but the laws have expanded the definition to any data that is directly linked or indirectly linkable back to a person. Organizations are subject to, and must operate consistent with, a multitude of laws, regulations, codes of conduct, industry-specific standards, and compliance standards governing data privacy.
+
+
+# Identidad
+
+![3-identity-new-security-perimeter](https://user-images.githubusercontent.com/63270579/194121349-78002b7c-430e-481a-b00c-0e832a594556.png)
+
+
+Todos los usuarios y todos los dispositivos tienen una identidad que se puede usar para tener acceso a los recursos. La identidad es la forma en que se identifican las personas y las cosas en la red corporativa y en la nube. Tener la seguridad de quién o qué está accediendo a los datos de la organización y otros recursos es una parte fundamental de la protección del entorno.
+
+## Atenticacion y Autorizacion 
+
+Supongamos que quiere pasar la noche en un hotel. Lo primero que hará es ir a la recepción para iniciar el "proceso de autenticación". Una vez que el recepcionista haya comprobado quién es, le dará una tarjeta-llave y ya podrá dirigirse a su habitación. Piense en la tarjeta-llave como el proceso de autorización. La tarjeta-llave solo le permitirá abrir las puertas y los ascensores a los que puede acceder, como la puerta de su habitación.
+
+En términos de ciberseguridad, la autorización determina el nivel de acceso o los permisos de una persona autenticada a los datos y los recursos. A veces, la autorización se abrevia como AuthZ.
+
+Acronimo que me parecio interesante BYOD o Bring Your Own Device
+
+El modelo de seguridad tradicional basado en el perímetro ya no es suficiente. La identidad se ha convertido en el nuevo perímetro de seguridad que permite a las organizaciones proteger sus recursos.
+
+Pero ¿qué significa una identidad? Una identidad es el conjunto de aspectos que definen o caracterizan a alguien o algo. Por ejemplo, la identidad de una persona incluye la información que usa para autenticarse, como su nombre de usuario y contraseña, y su nivel de autorización.
+
+Una identidad puede estar asociada a un usuario, una aplicación, un dispositivo o cualquier otra cosa.
+
+## Cuatro pilares de una infraestructura de identidad
+
+La identidad es un concepto que abarca todo un entorno, por lo que las organizaciones deben pensar en ello en general. Hay una colección de procesos, tecnologías y directivas para administrar identidades digitales y controlar cómo se usan para tener acceso a los recursos. Pueden organizarse en cuatro pilares fundamentales que las organizaciones deben tener en cuenta al crear una infraestructura de identidad.
+
+### Administración.
+
+La administración consiste en la creación y la administración o gobernanza de identidades para los usuarios, dispositivos y servicios. Como administrador, puede administrar cómo y en qué circunstancias pueden cambiar las características de las identidades (se pueden crear, actualizar y eliminar).
+
+### Autenticación. 
+
+El pilar de autenticación indica cuánto necesita saber un sistema de TI sobre una identidad para tener pruebas suficientes de que realmente son quienes dicen ser. Implica el acto de solicitar a un usuario credenciales legítimas.
+
+## Autorización.
+
+El pilar de autorización trata sobre el procesamiento de los datos de identidad entrante para determinar el nivel de acceso de una persona o servicio autenticado dentro de la aplicación o servicio al que quiere obtener acceso.
+
+## Auditoría
+
+El pilar de auditoría consiste en realizar un seguimiento de quién realiza qué, cuándo, dónde y cómo. La auditoría incluye la creación de informes, alertas y gobernanza de identidades en profundidad.
+
+Direccionar cada uno de estos cuatro pilares es clave para una solución completa y sólida de identidad y control de acceso.
+
+# Descripción del rol del proveedor de identidades
+
+Autenticación moderna es un término genérico para los métodos de autenticación y autorización entre un cliente, como un portátil o un teléfono, y un servidor, como un sitio web o una aplicación. ***En el centro de la autenticación moderna está el rol del proveedor de identidades. Un proveedor de identidades crea, mantiene y administra la información de identidad al tiempo que proporciona servicios de autenticación, autorización y auditoría.***
+
+Con la autenticación moderna, quien proporciona todos los servicios, incluidos todos los servicios de autenticación, es un proveedor de identidades central. El proveedor de identidades almacena y administra de forma centralizada la información que se usa para autenticar el usuario en el servidor.
+
+Con un proveedor de identidades central, las organizaciones pueden establecer directivas de autenticación y autorización, supervisar el comportamiento de los usuarios, identificar actividades sospechosas y reducir los ataques malintencionados.
 
 
 
