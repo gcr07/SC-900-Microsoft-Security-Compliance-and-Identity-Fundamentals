@@ -222,7 +222,40 @@ Con la autenticación moderna, quien proporciona todos los servicios, incluidos 
 
 Con un proveedor de identidades central, las organizaciones pueden establecer directivas de autenticación y autorización, supervisar el comportamiento de los usuarios, identificar actividades sospechosas y reducir los ataques malintencionados.
 
+## Como Funciona 
 
+Como se ve en el vídeo, gracias a la autenticación moderna, el cliente se comunica con el proveedor de identidades mediante la asignación de una identidad que se puede autenticar. Cuando se ha comprobado la identidad (que puede ser un usuario o una aplicación), el proveedor de identidades emite un token de seguridad que el cliente envía al servidor.
+
+El servidor valida el token de seguridad a través de su relación de confianza con el proveedor de identidades. Mediante el uso del token de seguridad y la información que contiene, el usuario o la aplicación accede a los recursos necesarios en el servidor. En este escenario, el proveedor de identidades almacena y administra el token y la información que contiene. El proveedor de identidades centralizado proporciona el servicio de autenticación.
+
+Microsoft Azure Active Directory es un ejemplo de un proveedor de identidades basado en la nube. Otros ejemplos son Twitter, Google, Amazon, LinkedIn y GitHub.
+
+## Inicio de sesión único Single sign on
+
+Otra funcionalidad fundamental de un proveedor de identidades y "autenticación moderna" es la compatibilidad con el inicio de sesión único (SSO). Con el SSO, el usuario inicia sesión una vez y esa credencial se usa para tener acceso a varias aplicaciones o recursos. A la acción de configurar el SSO para que funcione entre varios proveedores de identidades se le conoce como federación.
+
+# Descripción del concepto de servicios de directorio y Active Directory
+
+Azure Active Directory es la siguiente evolución de las soluciones de administración de identidad y acceso. Proporciona a las organizaciones una solución de identidad como servicio (IDaaS) para todas sus aplicaciones en la nube y en el entorno local. En este curso, nos centraremos en Azure AD, el proveedor de identidades basado en la nube de Microsoft.
+
+## Descripción del concepto de federación
+
+![5-federated-identification](https://user-images.githubusercontent.com/63270579/194125924-b18dc4c5-451f-47f3-9385-a7aaf26354be.png)
+
+
+La federación permite el acceso a los servicios a través de los límites de la organización o del dominio mediante el establecimiento de relaciones de confianza entre el proveedor de identidades del dominio correspondiente. Con la federación, no es necesario que un usuario mantenga un nombre de usuario y una contraseña diferentes al acceder a los recursos de otros dominios.
+
+## Como Funciona 
+
+La manera simplificada de considerar este escenario de federación es la siguiente:
+
+El sitio web, en el dominio A, usa los servicios de autenticación del proveedor de identidades A (IdP-A).
+El usuario, en el dominio B, se autentica con el proveedor de identidades B (IdP-B).
+IdP-A tiene una relación de confianza configurada con IdP-B.
+Cuando el usuario, que desea acceder al sitio web, proporciona sus credenciales, el sitio web confía en el usuario y permite el acceso. Este acceso se permite debido a la confianza que ya se ha establecido entre los dos proveedores de identidades.
+Con la federación, la confianza no siempre es bidireccional. Aunque IdP-A puede confiar en IdP-B y permitir que el usuario del dominio B tenga acceso al sitio web del dominio A, lo contrario no es cierto, a menos que se configure la relación de confianza.
+
+Un ejemplo común de federación en la práctica es cuando un usuario inicia sesión en un sitio de terceros con su cuenta de redes sociales, como Twitter. En este escenario, Twitter es un proveedor de identidades y el sitio de terceros podría estar usando otro proveedor de identidades, como Azure AD. Hay una relación de confianza entre Azure AD y Twitter.
 
 
 
