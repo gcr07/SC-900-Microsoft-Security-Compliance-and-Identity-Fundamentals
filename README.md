@@ -214,6 +214,8 @@ Direccionar cada uno de estos cuatro pilares es clave para una solución complet
 
 # Descripción del rol del proveedor de identidades
 
+![Modern Autentication ](https://user-images.githubusercontent.com/63270579/194124731-accb021e-5ec6-4685-a45e-e972a7969b1f.PNG)
+
 Autenticación moderna es un término genérico para los métodos de autenticación y autorización entre un cliente, como un portátil o un teléfono, y un servidor, como un sitio web o una aplicación. ***En el centro de la autenticación moderna está el rol del proveedor de identidades. Un proveedor de identidades crea, mantiene y administra la información de identidad al tiempo que proporciona servicios de autenticación, autorización y auditoría.***
 
 Con la autenticación moderna, quien proporciona todos los servicios, incluidos todos los servicios de autenticación, es un proveedor de identidades central. El proveedor de identidades almacena y administra de forma centralizada la información que se usa para autenticar el usuario en el servidor.
