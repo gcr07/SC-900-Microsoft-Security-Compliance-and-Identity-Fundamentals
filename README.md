@@ -113,6 +113,53 @@ should be classified, labeled, and encrypted based on its attributes. Security e
 ## Networks 
 should be segmented, including deeper in-network micro segmentation. Also, real-time threat protection, end-to-end encryption, monitoring, and analytics should be employed.
 
+## Trabajando todo el Zero trust Model en conjunto con sus 6 pilares y 3 princios
+
+![2-zero-trust-pillars-v2](https://user-images.githubusercontent.com/63270579/194115915-59e5d772-09af-49a9-b056-0adba9f7e2be.png)
+
+# Describe encryption and hashing
+
+![6-encryption](https://user-images.githubusercontent.com/63270579/194116571-1cd2dc93-303b-4901-bc33-f5cd917c0fad.png)
+Ya te sabes esta parte.
+
+El esquema asimétrico resuelve el problema de necesitar una clave pre-establecida. Se divide la clave en dos partes par de claves): la clave pública y la clave privada. Dichas claves son complementarias: Un mensaje encriptado con la clave pública sólo puede ser desencriptado con la correspondiente clave privada. Por lo tanto, el conocimiento de la clave pública no implica capacidad de desencriptación. Así, una persona podrá difundir su clave pública para que cualquiera pueda enviarle un mensaje cifrado que solamente podrá desencriptarse con la clave privada. ***Mesaje encritpado con clave publica solo puede see desencriptado con la clave privada***.
+
+## Encryption for data at rest
+
+Data at rest is the data that's stored on a physical device, such as a server. It may be stored in a database or a storage account but, regardless of where it's stored, encryption of data at rest ensures the data is unreadable without the keys and secrets needed to decrypt it.
+
+If an attacker obtained a hard drive with encrypted data and didn't have access to the encryption keys, they would be unable to read the data.
+
+## Encryption for data in transit
+
+Data in transit is the data moving from one location to another, such as across the internet or through a private network. Secure transfer can be handled by several different layers. It could be done by encrypting the data at the application layer before sending it over a network. HTTPS is an example of encryption in transit.
+
+Encrypting data in transit protects it from outside observers and provides a mechanism to transmit data while limiting the risk of exposure.
+
+## Encryption for data in use
+
+A common use case for encryption of data in use involves securing data in nonpersistent storage, such as RAM or CPU caches. This can be achieved through technologies that create an enclave (think of this as a secured lockbox) that protects the data and keeps data encrypted while the CPU processes the data.
+
+
+# Hashing
+
+Ya te la sabes
+
+Hashing uses an algorithm to convert text to a unique fixed-length value called a hash. Each time the same text is hashed using the same algorithm, the same hash value is produced. That hash can then be used as a unique identifier of its associated data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
