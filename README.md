@@ -524,9 +524,35 @@ El acceso condicional es una característica de Azure AD que proporciona una cap
 
 
 
+# Ventajas de los roles de Azure AD y el control de acceso basado en rolesentajas de los roles de Azure AD y el control de acceso basado en roles
+
+Los roles de Azure AD controlan los permisos para administrar los recursos de Azure AD. Por ejemplo, permitir la creación de cuentas de usuario o ver la información de facturación. Azure AD admite roles integrados y personalizados.
+
+La administración del acceso mediante roles se conoce como control de acceso basado en roles (RBAC). Los roles integrados y personalizados de Azure AD son una forma de RBAC en que los roles de Azure AD controlan el acceso a los recursos de Azure AD. Esto se denomina RBAC de Azure AD.
+
+## Roles integrados
+
+En Azure AD hay muchos roles integrados, que son los que tienen un conjunto fijo de permisos de rol. Algunos de los roles integrados más comunes son los siguientes:
+
+Administrador global: los usuarios con este rol tienen acceso a todas las características administrativas de Azure Active Directory. El usuario que se suscribe al inquilino de Azure Active Directory se convierte en administrador global de manera automática.
+Administrador de usuarios: los usuarios con este rol pueden crear y administrar todos los aspectos de los usuarios y grupos. Además, este rol incluye la capacidad de administrar incidencias de soporte técnico y supervisar el estado del servicio.
+Administrador de facturación: los usuarios que tienen este rol realizan compras, administra suscripciones e incidencias de soporte técnico y supervisan el estado del servicio.
+Todos los roles integrados son agrupaciones preconfiguradas de permisos que se diseñaron para tareas específicas. El conjunto fijo de permisos incluidos en los roles integrados no se puede modificar.
+
+## Roles personalizados
+
+Si bien hay muchos roles de administrador integrados en Azure AD, los roles personalizados proporcionan flexibilidad a la hora de conceder acceso. Una definición de roles personalizada es una colección de permisos que se seleccionan en una lista preestablecida. La lista de permisos entre los que se puede elegir son los mismos que usan los roles integrados. La diferencia es que puede elegir qué permisos quiere incluir en un rol personalizado.
+
+***Los servicios de Microsoft 365 disponibles incluyen Azure AD, Exchange, SharePoint, Microsoft Defender, Teams, Intune y muchos más.***
 
 
+![image](https://user-images.githubusercontent.com/63270579/194366953-1ac08ea9-7e15-456b-88c4-d3bf8a9a89dd.png)
 
+
+## Diferencias entre los roles de RBAC de Azure y Azure AD
+
+RBAC de Azure AD: los roles de Azure AD controlan el acceso a recursos de Azure AD como usuarios, grupos y aplicaciones.
+RBAC de Azure: los roles de Azure controlan el acceso a recursos de Azure como máquinas virtuales o almacenamiento mediante la administración de recursos de Azure.
 
 
 
