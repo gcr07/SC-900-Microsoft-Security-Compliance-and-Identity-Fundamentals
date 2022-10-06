@@ -489,10 +489,31 @@ Cuando un usuario elige Authenticator como método de autenticación secundario,
 
 ![image](https://user-images.githubusercontent.com/63270579/194353136-3e14a639-92ba-41a3-9792-aa7e8e7b5700.png)
 
+## Describir la autenticación multifactor (MFA) en Azure AD
+
+La autenticación multifactor requiere más de una forma de comprobación para demostrar que una identidad es legítima, como un dispositivo de confianza o una detección de huellas digitales. Esto implica que, aunque la contraseña de una identidad se haya puesto en peligro, un hacker no podrá acceder al recurso.
+
+El funcionamiento de la autenticación multifactor de Azure Active Directory solicita lo siguiente:
+
+Algo que sabe: normalmente una contraseña o un PIN y
+Algo que tiene: como un dispositivo de confianza que no se duplica fácilmente; por ejemplo, un teléfono o una clave de hardware, o
+Algo que forma parte de usted: información biométrica como una huella digital o una detección de rostro.
+
+##  Autoservicio de restablecimiento de contraseña (SSPR) en Azure AD
 
 
+El autoservicio de restablecimiento de contraseña (SSPR) es una característica de Azure AD que permite a los usuarios cambiar o restablecer su contraseña, sin necesidad de que intervenga el administrador o el departamento de soporte técnico.
 
+##  Funcionalidades de administración y protección de contraseñas de Azure AD
 
+La protección de contraseñas es una característica de Azure AD que reduce el riesgo de que los usuarios establezcan contraseñas no seguras. La característica Protección de contraseñas de Azure AD detecta y bloquea las contraseñas no seguras conocidas y sus variantes;además, puede bloquear otros términos poco seguros específicamente para la organización.
+
+Para satisfacer sus necesidades empresariales y de seguridad, puede definir entradas en una lista personalizada de contraseñas prohibidas. Cuando los usuarios cambian o restablecen sus contraseñas, se consultan estas listas para exigir el uso de contraseñas seguras.
+
+La lista global de contraseñas prohibidas se aplica automáticamente y no se puede deshabilitar.
+
+Los administradores también pueden crear listas personalizadas de contraseñas prohibidas para satisfacer necesidades específicas de seguridad empresarial.
+pueden integrar la Protección de contraseñas de Azure AD en un entorno de Active Directory local. 
 
 
 
