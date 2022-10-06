@@ -516,6 +516,27 @@ Los administradores también pueden crear listas personalizadas de contraseñas 
 pueden integrar la Protección de contraseñas de Azure AD en un entorno de Active Directory local. 
 
 
+# Funcionalidades de administración de acceso de Azure AD
+
+## Acceso condicional en Azure AD
+
+El acceso condicional es una característica de Azure AD que proporciona una capa de seguridad adicional antes de permitir que los usuarios autenticados tengan acceso a los datos o a otros recursos. El acceso condicional se implementa a través de las directivas que se crean y administran en Azure AD. Una directiva de acceso condicional analiza las señales que incluyen el usuario, la ubicación, el dispositivo, la aplicación y el riesgo para automatizar las decisiones de autorización de acceso a los recursos (aplicaciones y datos).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
