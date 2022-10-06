@@ -593,5 +593,38 @@ Cuando se crea una revisión de acceso, se puede configurar para que cada usuari
 Privileged Identity Management (PIM) es un servicio de Azure Active Directory (Azure AD) que permite administrar, controlar y supervisar el acceso a recursos importantes de la organización. Esto incluye a los recursos de Azure AD, Azure y los de otros servicios en línea de Microsoft, como Microsoft 365 o Microsoft Intune. PIM mitiga los riesgos de los permisos de acceso excesivos, innecesarios o mal utilizados. Requiere una justificación para saber por qué los usuarios quieren los permisos y aplica la autenticación multifactor para activar cualquier rol.
 
 
+Privileged Identity Management es una característica de Azure AD Premium P2.
+
+## Azure AD Identity Protection
+
+
+Identity Protection es una herramienta que permite a las organizaciones realizar tres tareas clave:
+
+Automatizar la detección y corrección de riesgos basados en la identidad.
+Investigar los riesgos de usar los datos en el portal.
+Exportar los datos de detección de riesgos a utilidades de terceros para su posterior análisis.
+
+Las señales que generan estos servicios se cargan en Identity Protection. A continuación, las herramientas como el acceso condicional pueden usar estas señales para tomar decisiones sobre el acceso. Las señales también se cargan en las herramientas de administración de eventos e información de seguridad (SIEM), como Microsoft Sentinel, para investigación adicional.
+
+Identity Protection clasifica el riesgo en tres niveles: bajo, medio y alto. También puede calcular el riesgo de inicios de sesión y el riesgo de identidades del usuario.
+
+Un riesgo de inicio de sesión representa la probabilidad de que el propietario de la identidad no haya autorizado una solicitud de autenticación determinada. El riesgo de inicio de sesión se puede calcular en tiempo real o sin conexión, usando orígenes de inteligencia sobre amenazas internos y externos de Microsoft
+
+
+Un riesgo de usuario representa la probabilidad de que una identidad o cuenta determinada esté en peligro. Los riesgos se calculan sin conexión, usando orígenes de inteligencia sobre amenazas internos y externos de Microsoft. Filtración de credenciales y Inteligencia sobre amenazas de Azure AD
+
+Identity Protection proporciona a las organizaciones tres informes que pueden usar para investigar los riesgos de identidad en su entorno. Estos informes son sobre los usuarios de riesgo, los inicios de sesión de riesgo y las detecciones de riesgo. La investigación de eventos es clave para comprender e identificar los puntos débiles de la estrategia de seguridad.
+
+***Identity Protection es una característica de Azure AD Premium P2.***
+
+
+
+
+
+
+
+
+
+
 
 
