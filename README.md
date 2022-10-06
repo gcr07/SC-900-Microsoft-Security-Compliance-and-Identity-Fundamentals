@@ -472,8 +472,22 @@ El nombre de FIDO viene de Fast Identity Online y está formada por una alianza 
 Ahora bien, ¿cómo funciona exactamente? Su objetivo es permitir que nos autentiquemos en Internet, por ejemplo al usar una aplicación o entrar en un sitio web, sin tener que poner contraseña. Para ello podemos usar una pequeña llave de seguridad que se conecta por USB y conexión NFC. Pero también puedes utilizar el teléfono móvil para autenticarte.
 
 
+## Aplicación Microsoft Authenticator
+
+Como método de autenticación sin contraseña, la aplicación Microsoft Authenticator se puede usar como forma principal de autenticación para iniciar sesión en cualquier cuenta de Azure AD o como opción de verificación adicional durante el autoservicio de restablecimiento de contraseña (SSPR) o Azure AD eventos de Multi-Factor Authentication.
+
+Para usar Microsoft Authenticator, un usuario debe descargar la aplicación de teléfono desde Microsoft Store y registrar su cuenta. Microsoft Authenticator está disponible para Android e iOS.
+
+Con la información de inicio de sesión, la aplicación Authenticator convierte cualquier teléfono Android o iOS en una credencial segura sin contraseña. Para iniciar sesión en su cuenta de Azure AD, un usuario escribe su nombre de usuario, coincide con un número mostrado en la pantalla en el que se encuentra en su teléfono y, a continuación, usa su biométrica o PIN para confirmar.
+
+LO QUE HACES PARA MODELO Y PARA ENTRAR A OUTLOOK
+
+![image](https://user-images.githubusercontent.com/63270579/194353106-cc0641d9-863d-4bdc-ae30-1dd87611d733.png)
 
 
+Cuando un usuario elige Authenticator como método de autenticación secundario, para verificar su identidad, se envía una notificación push al teléfono o tableta. Si la notificación es legítima, el usuario selecciona Aprobar; de lo contrario, selecciona Denegar.
+
+![image](https://user-images.githubusercontent.com/63270579/194353136-3e14a639-92ba-41a3-9792-aa7e8e7b5700.png)
 
 
 
