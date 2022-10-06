@@ -437,6 +437,40 @@ son dispositivos de hardware pequeños que parecen un fob de clave que muestra u
 
 Los tokens de hardware y software OATH solo se admiten como formas secundarias de autenticación en Azure AD para comprobar una identidad durante el autoservicio de restablecimiento de contraseña (SSPR) o Azure AD Multi-Factor Authentication.
 
+## Autenticación sin contraseñas
+
+En muchas organizaciones, el objetivo final es eliminar el uso de contraseñas como parte de los eventos de inicio de sesión. Cuando un usuario inicia sesión con un método sin contraseña, las credenciales se proporcionan mediante el uso de métodos como la información biométrica en Windows Hello para empresas o una clave de seguridad FIDO2. Un atacante no puede duplicar fácilmente estos métodos de autenticación.
+
+Azure AD ofrece formas de autenticación nativa sin contraseña con el fin de simplificar la experiencia de inicio de sesión de los usuarios y reducir el riesgo de ataques.
+
+### Windows Hello para empresas ( mas como de datos biometricos para iniciar en windows)
+
+
+Windows Hello para empresas reemplaza las contraseñas con una autenticación de dos factores sólida en dispositivos. Esta autenticación en dos fases es una combinación de una clave o un certificado vinculado a un dispositivo y algo que la persona conoce (un PIN) o algo que la persona es (biometría). La entrada de PIN y el gesto biométrico desencadenan el uso de la clave privada para firmar criptográficamente los datos que se envían al proveedor de identidades. El proveedor de identidades comprueba la identidad del usuario y autentica al usuario.
+
+Windows Hello para empresas ayuda a protegerse contra el robo de credenciales, ya que un atacante debe tener tanto el dispositivo como la información biométrica o el PIN, lo que dificulta el acceso sin el conocimiento del empleado.
+
+Como método de autenticación sin contraseña, Windows Hello para empresas actúa como forma principal de autenticación. Además, Windows Hello para empresas se puede usar como forma secundaria de autenticación para comprobar una identidad durante la autenticación multifactor
+
+## FIDO2 ( son como usb donde pones tu huella o pueden ser badges como el de la entrada a una empresa pero para iniciar sesion) 
+
+Fast Identity Online (FIDO) es un estándar abierto para la autenticación sin contraseña. FIDO permite a los usuarios y a las organizaciones aprovechar el estándar para iniciar sesión en sus recursos mediante una clave de seguridad externa o una clave de plataforma integrada en un dispositivo, lo que elimina la necesidad de usar usuario y contraseña.
+
+FIDO2 es el estándar más reciente que incorpora el estándar de autenticación web (WebAuthn) y es compatible con Azure AD. Las claves de seguridad FIDO2 son un método de autenticación sin contraseña basado en estándares que no permite la suplantación de identidad y que puede venir en cualquier factor de forma. Estas claves de seguridad FIDO2 suelen ser dispositivos USB, pero también pueden ser dispositivos basados en Bluetooth o comunicación de campo cercano (NFC), que se usan para la transferencia de datos inalámbricas de corto alcance. Con un dispositivo de hardware que controla la autenticación, se aumenta la seguridad de una cuenta, ya que no hay ninguna contraseña que pueda quedar expuesta ni adivinarse.
+
+Con las claves de seguridad FIDO2, los usuarios pueden iniciar sesión en dispositivos Windows 10 unidos a Azure AD o Azure AD híbrido y lograr el inicio de sesión único en sus recursos de nube y locales. Los usuarios también pueden iniciar sesión en exploradores compatibles. Las claves de seguridad FIDO2 son una excelente opción para las empresas que son muy conscientes de la seguridad o tienen escenarios o empleados que no quieren o no pueden usar su teléfono como un segundo factor.
+
+Como método de autenticación sin contraseña, FIDO2 actúa como forma principal de autenticación. Además, FIDO2 se puede usar como forma secundaria de autenticación para comprobar una identidad durante la autenticación multifactor.
+
+
+#### En qué consiste FIDO2
+
+Lo habitual es tener un nombre de usuario y poner una clave. Por ejemplo para entrar en redes sociales como Facebook, acceder al correo o iniciar un dispositivo. Lo que permite el estándar FIDO2 es poder dejar a un lado este método tradicional, pero sin poner en riesgo la seguridad. Se basa en la autenticación en dos factores y utiliza claves de seguridad.
+
+El nombre de FIDO viene de Fast Identity Online y está formada por una alianza de algunas de las plataformas más conocidas a nivel mundial: Google, Amazon, Facebook o Mozilla, entre otros. Además, forman parte también el estándar WebAuthn y el protocolo CTAP. Se basa en el estándar anterior U2F y UAF, ambos realizados por FIDO.
+
+Ahora bien, ¿cómo funciona exactamente? Su objetivo es permitir que nos autentiquemos en Internet, por ejemplo al usar una aplicación o entrar en un sitio web, sin tener que poner contraseña. Para ello podemos usar una pequeña llave de seguridad que se conecta por USB y conexión NFC. Pero también puedes utilizar el teléfono móvil para autenticarte.
+
 
 
 
