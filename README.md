@@ -617,6 +617,9 @@ Identity Protection proporciona a las organizaciones tres informes que pueden us
 
 ***Identity Protection es una característica de Azure AD Premium P2.***
 
+![image](https://user-images.githubusercontent.com/63270579/194397428-10178097-e563-40d9-859a-d7092a614c37.png)
+
+![image](https://user-images.githubusercontent.com/63270579/194397509-5e941484-2951-4109-bf78-59ae24b66dd4.png)
 
 
 
