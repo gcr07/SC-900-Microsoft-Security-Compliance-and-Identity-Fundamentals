@@ -556,11 +556,39 @@ RBAC de Azure: los roles de Azure controlan el acceso a recursos de Azure como m
 
 
 
+# Gobernanza de identidades
+
+La gobernanza de identidades consiste en equilibrar la seguridad de identidad con la productividad de los usuarios de una manera que se pueda justificar y auditar. Azure AD ofrece muchas funcionalidades de protección y gobernanza de identidades, incluido Privileged Identity Management (PIM), Identity Protection y los términos de uso.
+
+## Azure AD Identity Governance
+
+ofrece a las organizaciones la posibilidad de realizar las siguientes tareas:
+
+Administrar el ciclo de vida de las identidades.
+
+Administrar el ciclo de vida de los accesos.
+
+Proteger el acceso con privilegios para la administración.
 
 
+## Ciclo de vida de las identidades
+
+![image](https://user-images.githubusercontent.com/63270579/194389052-4b3cdefb-1cd8-4f49-98b0-6d0c4fa8300c.png)
+
+Azure AD Premium incluye también Microsoft Identity Manager, que permite importar registros desde los sistemas de recursos humanos locales, como SAP HCM, Oracle eBusiness y Oracle PeopleSoft. Para obtener más información, consulte la documentación de Microsoft Identity Manager que se muestra en la sección Más información de la unidad de resumen y recursos.
+
+En general, la administración del ciclo de vida de una identidad consiste en actualizar el acceso que necesitan los usuarios, ya sea a través de la integración con un sistema de recursos humanos, o a través de aplicaciones de aprovisionamiento de usuarios.
 
 
+## Revisiones de acceso de Azure AD
 
+Las revisiones de acceso de Azure Active Directory (AD) permiten a las organizaciones administrar de forma eficiente la pertenencia a grupos, el acceso a las aplicaciones empresariales y la asignación de roles. Las revisiones de acceso periódicas garantizan que solo las personas adecuadas tienen acceso a los recursos. Los derechos de acceso excesivos suponen un riesgo de seguridad conocido. Sin embargo, cuando las personas se transfieren de un equipo a otro, o cuando asumen o ceden responsabilidades, los derechos de acceso pueden ser difíciles de controlar.
+
+Las revisiones de acceso se pueden crear a través de las revisiones de acceso de Azure AD o de Azure AD Privileged Identity Management (PIM).
+
+Cuando se crea una revisión de acceso, se puede configurar para que cada usuario revise su propio acceso, o para que uno o varios usuarios revisen el acceso de todos. Del mismo modo, se puede solicitar a todos los invitados que revisen su propio acceso, o que lo examinen uno o varios usuarios.
+
+## Privileged Identity Management
 
 
 
