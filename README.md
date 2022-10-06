@@ -406,6 +406,41 @@ La autenticación federada usa Azure AD Connect, pero también necesita servidor
 
 Las organizaciones que deciden usar la federación con Servicios de federación de Active Directory (AD FS) tienen la posibilidad de configurar la sincronización de hash de contraseña como copia de seguridad en caso de error en la infraestructura de AD FS.
 
+# Describir los métodos de autenticación de Azure AD
+
+El uso de contraseñas debe complementarse o reemplazarse por métodos de autenticación más seguros disponibles en Azure AD.
+
+## Teléfono
+
+Azure AD admite dos opciones para la autenticación basada en teléfono.
+
+### Autenticación basada en SMS.
+
+El servicio de mensajes cortos (SMS) usado en la mensajería de texto del dispositivo móvil se puede usar como forma principal de autenticación. Con el inicio de sesión basado en SMS, los usuarios ***no necesitan conocer un nombre de usuario y una contraseña para acceder a las aplicaciones y servicios.*** En su lugar, el usuario escribe su número de teléfono móvil registrado, recibe un mensaje de texto con un código de verificación, y escribe el código en la interfaz de inicio de sesión.
+
+### Comprobación por llamada de voz
+
+Los usuarios pueden usar llamadas de voz como forma secundaria de autenticación, para comprobar su identidad, durante el autoservicio de restablecimiento de contraseña (SSPR) o Azure AD Multi-Factor Authentication. Con la verificación por llamada telefónica, se hace una llamada de voz automatizada al número de teléfono registrado por el usuario. Para completar el proceso de inicio de sesión, se le pide al usuario que presione # en el teclado. Las llamadas de voz no se admiten como una forma principal de autenticación en Azure AD.
+
+
+### OATH
+
+OATH (Open Authentication) es un estándar abierto que especifica cómo se generan los códigos de contraseña de un solo uso y duración definida (TOTP). Los códigos de contraseña de un solo uso se pueden usar para autenticar a un usuario. Los TOTP de OATH se implementan mediante software o hardware para generar los códigos.
+
+#### Los tokens de software OATH
+
+suelen ser aplicaciones. Azure AD genera la clave secreta, o valor de inicialización, que se introduce en la aplicación y se usa para generar cada OTP.
+
+#### Los tokens de hardware OATH TOTP (compatibles con la versión preliminar pública) 
+
+son dispositivos de hardware pequeños que parecen un fob de clave que muestra un código que se actualiza cada 30 o 60 segundos. Los tokens de hardware TOTP de OATH suelen incluir una clave secreta, o valor de inicialización, programada previamente en el token. Estas claves y otra información específica de cada token deben introducirse en Azure AD y, a continuación, activarse para su uso por parte de los usuarios finales.
+
+Los tokens de hardware y software OATH solo se admiten como formas secundarias de autenticación en Azure AD para comprobar una identidad durante el autoservicio de restablecimiento de contraseña (SSPR) o Azure AD Multi-Factor Authentication.
+
+
+
+
+
 
 
 
