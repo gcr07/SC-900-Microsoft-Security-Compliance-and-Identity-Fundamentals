@@ -622,6 +622,118 @@ Identity Protection proporciona a las organizaciones tres informes que pueden us
 ![image](https://user-images.githubusercontent.com/63270579/194397509-5e941484-2951-4109-bf78-59ae24b66dd4.png)
 
 
+# FUncionalidades de seguridad en Azure
+
+## Protección contra DDoS de Azure
+
+El objetivo de un ataque de denegación de servicio distribuido (DDoS) es sobrecargar los recursos en las aplicaciones y servidores, lo que les deja sin responder o ralentiza a los usuarios auténticos. Un ataque DDoS normalmente se dirige a cualquier dispositivo de acceso público al que se pueda acceder a través de Internet.
+
+Los tres tipos más frecuentes de ataque DDoS son:
+
+### Ataques volumétricos: 
+
+Se tratan de ataques basados en volúmenes que inundan la red con tráfico aparentemente legítimo, sobrepasando el ancho de banda disponible. El tráfico legítimo no logra comunicarse. Estos tipos de ataques se miden en bits por segundo.
+
+### Ataques de protocolo: 
+
+Los ataques de protocolo representan un destino inaccesible al agotar los recursos del servidor con solicitudes de protocolo falsas que aprovechan los puntos débiles de los protocolos de nivel 3 (red) y nivel 4 (transporte). Estos tipos de ataques se miden normalmente en paquetes por segundo.
+
+### Ataques de nivel de recurso (aplicación) :
+
+Estos ataques van dirigidos a paquetes de aplicaciones web y su objetivo es interrumpir la transmisión de datos entre hosts.
+
+##  Azure DDoS Protection
+
+![image](https://user-images.githubusercontent.com/63270579/194715630-e95ca26a-3444-4105-be99-05d626851d7f.png)
+
+
+El servicio Azure DDoS Protection está diseñado para ayudar a proteger sus aplicaciones y servidores mediante el análisis del tráfico de red y el descarte de todo lo que parezca un ataque DDoS.
+
+Azure DDoS Protection usa la escala y la elasticidad de la red global de Microsoft para incorporar capacidad de mitigación de DDoS a cada región de Azure. Durante un ataque DDoS, Azure puede escalar las necesidades informáticas para satisfacer la demanda. Para administra el consumo de la nube, DDoS Protection se asegura de que la carga de red solo refleje el uso real de los clientes.
+
+
+Azure DDoS Protection se incluye en dos niveles:
+
+Básico: El nivel de servicio Básico está habilitado automáticamente para cada propiedad de Azure, sin costo adicional, como parte de la plataforma Azure.
+
+Estándar: Este nivel de servicio Estándar ofrece funcionalidades adicionales de mitigación adaptadas específicamente a los recursos de Microsoft Azure Virtual Network. DDoS Protection Estándar es fácil de habilitar y no requiere ningún cambio en la aplicación.
+
+El servicio Estándar de DDoS Protection tiene un cargo mensual fijo que incluye protección para 100 recursos. La protección de recursos adicionales se cobra mensualmente por cada recurso.
+
+## Azure Firewall
+
+![image](https://user-images.githubusercontent.com/63270579/194715849-ede03371-b63a-48b2-bc8c-944e094bf688.png)
+
+Azure Firewall es un servicio de seguridad de red administrado y basado en la nube que protege los recursos de redes virtuales (VNet) de Azure frente a los atacantes. Puede implementar Azure Firewall en cualquier red virtual, pero el mejor enfoque es usarlo en una red virtual centralizada. Todas las demás redes virtuales y locales se enrutarán a través de ella. La ventaja de este modelo es la capacidad de ejercer de forma centralizada el control del tráfico de red para todas las redes virtuales en diferentes suscripciones.
+
+![image](https://user-images.githubusercontent.com/63270579/194715971-94a6ae47-9c7e-4d8e-80d1-52e14976f8e3.png)
+
+## Web Application Firewall WAF
+
+El firewall de aplicaciones web (WAF) ofrece una protección centralizada de las aplicaciones web contra las vulnerabilidades de seguridad más habituales. Un WAF centralizado ayuda a simplificar la administración de la seguridad, mejora el tiempo de respuesta ante una amenaza de seguridad y permite aplicar revisiones a una vulnerabilidad conocida en un lugar, en lugar de proteger cada aplicación web individual. Un WAF también proporciona a los administradores de la aplicación a un mejor control de la protección contra amenazas e intrusiones.
+
+## Segmentación de red en Azure
+
+La segmentación de la red puede asegurar las interacciones entre los perímetros. Este enfoque puede reforzar la postura de seguridad de una organización, contener los riesgos en caso de infracción y evitar que los atacantes accedan a toda la carga de trabajo.
+
+### Azure Virtual Network (VNet)
+
+![image](https://user-images.githubusercontent.com/63270579/194716226-1fbb94ed-873b-4d44-b2ad-bd1bf7d2575a.png)
+
+
+Azure Virtual Network (VNet) es la pieza clave para la red privada de su organización en Azure. VNet es similar a una red tradicional que funcionaría en su propio centro de datos, pero aporta las ventajas adicionales de la infraestructura de Azure, como la escala, la disponibilidad y el aislamiento.
+
+Azure VNet permite a las organizaciones segmentar su red. Las organizaciones pueden crear varias VNets por región y por suscripción, y se pueden crear varias redes más pequeñas (subredes) dentro de cada VNet.
+
+
+### Grupos de seguridad de red de Azure ( esto a nivel de maquinas virtuales) aunque tambien de subredes
+
+Los grupos de seguridad de red (NSG) permiten filtrar el tráfico de red hacia y desde los recursos de Azure en una red virtual de Azure; por ejemplo, una máquina virtual. Un NSG consta de reglas que definen cómo se filtra el tráfico. Solo puede asociar un grupo de seguridad de red a cada subred e interfaz de red de la red virtual en una máquina virtual. Sin embargo, el mismo grupo de seguridad de red se puede asociar a tantas subredes e interfaces de red distintas como elija.
+
+En el diagrama muy simplificado que se muestra a continuación, puede ver una red virtual de Azure con dos subredes que están conectadas a Internet, y cada subred tiene una máquina virtual. La subred 1 tiene un NSG asignado que filtra el acceso entrante y saliente a VM1, que necesita un mayor nivel de acceso. En cambio, VM2 podría representar una máquina de acceso público que no requiere un NSG.
+
+
+Las VNets proporcionan una contención a nivel de red de los recursos sin que se permita el tráfico a través de las VNets o de entrada a la VNet, de forma predeterminada. La comunicación tiene que ser aprovisionada de forma explícita. Esto permite un mayor control sobre la forma en que los recursos de Azure en una VNet se comunican con otros recursos de Azure, Internet y las redes locales.
+
+
+Un NSG se compone de reglas de seguridad de entrada y salida. Las reglas de seguridad del NSG se evalúan por prioridad con cinco elementos de información: origen, puerto de origen, destino, puerto de destino y protocolo, para permitir o denegar el tráfico. De manera predeterminada, Azure crea una serie de reglas, tres reglas de entrada y tres de salida, para proporcionar un nivel de línea de base de seguridad. No puede quitar las reglas predeterminadas, pero puede invalidarlas si crea otras con prioridades más altas.
+
+## ¿Cuál es la diferencia entre los grupos de seguridad de red (NSG) y Azure Firewall?
+
+Ahora que ha obtenido información sobre los grupos de seguridad de red y Azure Firewall, es posible que se pregunte en qué difieren, ya que ambos protegen los recursos de red virtual. El servicio Azure Firewall complementa la funcionalidad de grupo de seguridad de red. Juntos proporcionan una mejor seguridad de red de "defensa en profundidad". Los grupos de seguridad de red proporcionan filtrado de tráfico distribuido de nivel de red para limitar el tráfico a los recursos dentro de las redes virtuales de cada suscripción. Azure Firewall es un firewall de red como servicio con estado y centralizado, que proporciona protección de nivel de red y de aplicación entre las diferentes suscripciones y redes virtuales
+
+
+
+## Azure Bastion 
+
+![image](https://user-images.githubusercontent.com/63270579/194716770-84cdb4e3-3ff0-447c-adcc-b7465e2745ed.png)
+
+
+### EL problema 
+
+En un modelo tradicional, debe exponer los puertos del Protocolo de escritorio remoto (RDP) o Secure Shell (SSH) a Internet. Estos protocolos se pueden usar para obtener acceso remoto a las VM. Este proceso crea una amenaza de superficie significativa que los atacantes que buscan activamente máquinas accesibles con puertos de administración abiertos, como RDP o SSH, pueden explotar. Cuando se consigue poner en peligro a una máquina virtual, se usa como punto de entrada para atacar más recursos dentro de su entorno.
+
+### La solucion 
+
+Azure Bastion es un servicio que se implementa que le permite conectarse a una máquina virtual mediante el explorador y Azure Portal. Azure Bastion es un nuevo servicio PaaS totalmente administrado por la plataforma que se aprovisiona en las redes virtuales. Azure Bastion proporciona conectividad RDP y SSH segura e ininterrumpida a las máquinas virtuales, directamente desde Azure Portal mediante la Seguridad de la capa de transporte (TLS). Cuando se conecta a través de Azure Bastion, las máquinas virtuales no necesitan una dirección IP pública, un agente ni software cliente especial.
+
+
+## Características clave de Azure Bastion
+
+![image](https://user-images.githubusercontent.com/63270579/194716916-630670b1-0764-489d-bcfe-3c4b1e9c5ae7.png)
+
+## Acceso Just-In-Time
+
+El acceso Just-In-Time (JIT) permite bloquear el tráfico entrante a las máquinas virtuales; ya que reduce la exposición a ataques al mismo tiempo que se proporciona un acceso sencillo para conectarse a las máquinas virtuales cuando sea necesario.
+
+Cuando se habilita el acceso a la máquina virtual Just-in-Time, se pueden seleccionar los puertos en la máquina virtual en los que se bloqueará el tráfico entrante. Microsoft Defender for Cloud, una herramienta para la administración de posiciones y protección frente a amenazas, garantiza que existen reglas para "denegar todo el tráfico entrante" de los puertos seleccionados en el grupo de seguridad de red (NSG) y las reglas de Azure Firewall. Estas reglas restringen el acceso a los puertos de administración de las máquinas virtuales de Azure y los defienden frente a ataques.
+
+En caso de que ya existan otras reglas relativas a los puertos seleccionados, las reglas existentes tendrán prioridad sobre las nuevas reglas para "denegar todo el tráfico entrante". Si no hay ninguna regla existente en los puertos seleccionados, las nuevas reglas tendrán prioridad principal en los grupos de seguridad de red y Azure Firewall.
+
+Cuando un usuario solicita acceso a una máquina virtual, Defender for Cloud comprueba que este tenga permisos de control de acceso basado en rol (RBAC de Azure) para ella. Si la solicitud se aprueba, Defender for Cloud configura los grupos de seguridad de red y Azure Firewall para permitir el tráfico entrante a los puertos seleccionados desde las direcciones (o rangos) IP relevantes durante el periodo especificado. Una vez transcurrido ese tiempo, Defender for Cloud restaura los NSG a su estado anterior. Las conexiones que ya están establecidas no se interrumpen.
+
+***JIT necesita que Microsoft Defender para servidores esté habilitado en la suscripción.***
+
 
 
 
