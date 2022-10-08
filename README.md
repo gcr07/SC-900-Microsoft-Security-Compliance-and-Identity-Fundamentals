@@ -734,12 +734,86 @@ Cuando un usuario solicita acceso a una máquina virtual, Defender for Cloud com
 
 ***JIT necesita que Microsoft Defender para servidores esté habilitado en la suscripción.***
 
+## Descripción de las maneras en que Azure cifra los datos Cifrado en Azure
+
+### Azure Storage Service Encryption
+
+ayuda a proteger los datos en reposo al cifrarlos automáticamente antes de almacenarlos en discos administrados de Azure, Azure Blob Storage, Azure Files o Azure Queue Storage, y descifrarlos antes de recuperarlos.
+
+### Azure Disk Encryption 
+
+le ayuda a cifrar discos de las máquinas virtuales de IaaS con Windows y Linux. Azure Disk Encryption usa la característica estándar del sector BitLocker de Windows y la característica dm-crypt de Linux para ofrecer cifrado de volumen para los discos de datos y del sistema operativo.
+
+## El cifrado de datos transparente (TDE)
+
+ayuda a proteger Azure SQL Database y Azure Data Warehouse frente a la amenaza de actividad malintencionada. También realiza cifrado y descifrado de la base de datos en tiempo real, copias de seguridad asociadas y archivos de registro de transacciones en reposo sin necesidad de efectuar cambios en la aplicación.
+
+## Azure Key Vault
+
+Azure Key Vault es un servicio centralizado en la nube para almacenar secretos de aplicación. Key Vault ayuda a controlar los secretos de la aplicación al mantenerlos en una sola ubicación centralizada y al proporcionar funcionalidades de acceso seguro, control de permisos y registro de acceso. Es útil para diferentes tipos de escenarios:
+
+Azure Key Vault es un servicio centralizado en la nube para almacenar secretos de aplicación. Key Vault ayuda a controlar los secretos de la aplicación al mantenerlos en una sola ubicación centralizada y al proporcionar funcionalidades de acceso seguro, control de permisos y registro de acceso. Es útil para diferentes tipos de escenarios:
+
+### Administración de secretos. 
+Puede usar Key Vault para almacenar de forma segura y controlar de manera estricta el acceso a tokens, contraseñas, certificados, claves de interfaz de programación de aplicaciones (API) y otros secretos.
+
+#### Administración de claves. 
+
+Puede usar Key Vault como solución de administración de claves. Key Vault facilita la creación y el control de las claves de cifrado usadas para cifrar los datos.
+### Administración de certificados. 
+
+Key Vault permite aprovisionar, administrar e implementar certificados públicos y privados de Capa de sockets seguros y de Seguridad de la capa de transporte (SSL/TLS) para los recursos de Azure y los recursos conectados internamente, con más facilidad.
+### Almacenamiento de secretos
+
+respaldados por módulos de seguridad de hardware (HSM). Las claves y los secretos se pueden proteger mediante software, o bien con dispositivos HSM validados por FIPS 140-2 nivel 2.
+
+Use las distintas formas en que Azure puede cifrar los datos para protegerlos con independencia de su ubicación o estado.
 
 
+## Funcionalidades de administración de seguridad de Azure
 
+### Descripción de la administración de la posición de seguridad en la nube Cloud Security Posture Management (CSPM)
 
+La administración de la posición de seguridad en la nube (CSPM) es una clase relativamente nueva de herramientas diseñadas para mejorar la administración de la seguridad en la nube. Evalúa los sistemas y alerta automáticamente al personal de seguridad de su Departamento de TI cuando se detecta una vulnerabilidad. CSPM usa herramientas y servicios en el entorno de nube para supervisar y priorizar las mejoras y características de seguridad.
 
+CSPM usa una combinación de herramientas y servicios:
 
+#### Control de acceso basado en la confianza cero: 
+
+Considera el nivel de amenaza activo durante las decisiones de control de acceso.
+
+#### Puntuación del riesgo en tiempo real: 
+
+Proporciona visibilidad sobre los principales riesgos.
+
+#### Administración de amenazas y vulnerabilidades (TVM):
+
+Establece una vista holística de la superficie y el riesgo de ataque de la organización, y la integra en las operaciones y la toma de decisiones de ingeniería.
+#### Detección de riesgos: 
+
+para comprender la exposición de los datos de la propiedad intelectual de la empresa en servicios en la nube autorizados y no autorizados
+
+#### Directiva técnica:
+
+Permite aplicar barreras para auditar y exigir los estándares y directivas de la organización a los sistemas técnicos.
+
+#### Arquitecturas y sistemas de modelado de amenazas: 
+
+Se usan junto con otras aplicaciones específicas.
+
+Use CSPM para mejorar la administración de la seguridad en la nube mediante la evaluación del entorno y el envío automático de alertas al personal de seguridad en caso de presentarse vulnerabilidades.
+
+## Descripción de Microsoft Defender for Cloud
+
+Microsoft Defender for Cloud es una herramienta para la administración de la posición de seguridad y la protección contra amenazas. Esta refuerza la posición de seguridad de los recursos en la nube y, gracias a los planes integrados de Microsoft Defender, Defender for Cloud protege las cargas de trabajo híbridas que se ejecutan en Azure y otras plataformas en la nube.
+
+## Microsoft Defender for Cloud
+
+Rellena tres necesidades vitales a medida que administra la seguridad de los recursos y las cargas de trabajo en la nube y en el entorno local:
+
+Evaluación continua: conozca su posición de seguridad, identifique y realice un seguimiento de las vulnerabilidades.
+Seguridad: proteja todos los recursos y servicios conectados.
+Defender: detecte y resuelva las amenazas a recursos, cargas de trabajo y servicios.
 
 
 
