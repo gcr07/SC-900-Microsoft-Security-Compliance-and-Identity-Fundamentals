@@ -811,9 +811,106 @@ Microsoft Defender for Cloud es una herramienta para la administración de la po
 
 Rellena tres necesidades vitales a medida que administra la seguridad de los recursos y las cargas de trabajo en la nube y en el entorno local:
 
-Evaluación continua: conozca su posición de seguridad, identifique y realice un seguimiento de las vulnerabilidades.
-Seguridad: proteja todos los recursos y servicios conectados.
-Defender: detecte y resuelva las amenazas a recursos, cargas de trabajo y servicios.
+### Evaluación continua:
+
+conozca su posición de seguridad, identifique y realice un seguimiento de las vulnerabilidades.
+
+### Seguridad:
+
+proteja todos los recursos y servicios conectados.
+
+### Defender
+
+detecte y resuelva las amenazas a recursos, cargas de trabajo y servicios.
+
+![image](https://user-images.githubusercontent.com/63270579/194724347-4dd87a71-5f65-417e-a0df-a662bd04cbf2.png)
+
+## Cloud Workload Protection (CWP)
+
+
+El segundo pilar de la seguridad en la nube es la protección de cargas de trabajo en la nube. A través de las funcionalidades de protección de cargas de trabajo en la nube, Microsoft Defender for Cloud puede detectar y resolver amenazas a recursos, cargas de trabajo y servicios. Las protecciones de las cargas de trabajo en la nube se entregan mediante planes integrados de Microsoft Defender, específicos de los tipos de recursos de las suscripciones y proporcionan características de seguridad mejorada para las cargas de trabajo. 
+
+## Descripción de la seguridad mejorada de Microsoft Defender for Cloud
+
+Microsoft Defender for Cloud se ofrece en dos modos:
+
+#### Microsoft Defender for Cloud (gratis):
+
+Microsoft Defender for Cloud está habilitado de forma gratuita en todas las suscripciones de Azure. Mediante modo gratuito tendrá la puntuación segura y sus características relacionadas: la directiva de seguridad, la evaluación de seguridad continua y las recomendaciones de seguridad prácticas para que pueda proteger los recursos de Azure.
+
+### Microsoft Defender for Cloud con características de seguridad mejorada:  
+
+la habilitación de la seguridad mejorada amplía las funcionalidades del modo gratuito a las cargas de trabajo que se ejecutan en nubes de Azure, híbridas y otras plataformas de nube, lo que proporciona una administración de seguridad unificada y protección contra amenazas en todas las cargas de trabajo. Las protecciones de las cargas de trabajo en la nube se entregan mediante planes integrados de Microsoft Defender, específicos de los tipos de recursos de las suscripciones y proporcionan características de seguridad mejorada para las cargas de trabajo.
+
+![image](https://user-images.githubusercontent.com/63270579/194724650-c0bd17f1-b056-47a4-800f-0de025fbea0c.png)
+
+
+## Azure Security Benchmark y las líneas de base de seguridad para Azure
+
+### Azure Security Benchmark
+
+Alerta de spoiler, es una hoja de cálculo de Excel. Algunos de los elementos clave de información de ASB V3 son los siguientes:
+Otros fragmentos de información de ASB incluyen vínculos a información sobre la implementación y sobre las partes interesadas de la seguridad e instrucciones sobre la asignación a Azure Policy. No se muestran en la imagen siguiente. La imagen siguiente es un extracto de Azure Security Benchmark (ASB v3) y se muestra como un ejemplo del tipo de contenido que se incluye en ASB v3. 
+
+![image](https://user-images.githubusercontent.com/63270579/194726528-8b3df876-74e6-4cdc-931b-79f87ce7a659.png)
+
+la línea de base de seguridad para Azure Active Directory aplica instrucciones de la versión 2.0 de Azure Security Benchmark a Azure Active Directory.
+
+## Microsoft Sentinel ( SIEM )
+
+Un sistema SIEM es una herramienta que una organización utiliza para recopilar datos de todo el patrimonio, incluida la infraestructura, el software y los recursos. Realiza análisis, busca correlaciones o anomalías y genera alertas e incidencias.
+
+##  La respuesta automatizada de orquestación de seguridad (SOAR)?
+
+Un sistema SOAR recibe alertas de muchos orígenes, como un sistema SIEM. El sistema SOAR desencadena entonces flujos de trabajo y procesos automatizados basados en acciones para ejecutar tareas de seguridad que mitiguen el problema.
+
+A fin de proporcionar un enfoque completo para la seguridad, una organización debe usar una solución que adopte o combine las funcionalidades SIEM y SOAR.
+
+![image](https://user-images.githubusercontent.com/63270579/194726828-1781f71f-c26f-4609-ac09-de8a88b523c3.png)
+
+La administración efectiva del perímetro de seguridad de red de una organización requiere la combinación adecuada de herramientas y sistemas. Microsoft Sentinel es una solución SIEM/SOAR escalable y nativa de la nube que ofrece análisis de seguridad inteligentes e inteligencia sobre amenazas en toda la empresa. Proporciona una única solución para la detección de alertas, la visibilidad de las amenazas, la búsqueda proactiva y la respuesta a las amenazas.
+
+En este diagrama se muestra la funcionalidad de un extremo a otro de Microsoft Sentinel.
+
+Recopile datos a escala de nube de todos los usuarios, dispositivos, aplicaciones y de toda la infraestructura, tanto en el entorno local como en diversas nubes.
+Detecte amenazas que antes no se abarcaban y reduzca los falsos positivos mediante un análisis y una inteligencia de amenazas sin precedentes.
+Investigue amenazas con inteligencia artificial (IA) y busque actividades sospechosas a gran escala, aprovechando el trabajo de ciberseguridad que ha realizado Microsoft durante décadas.
+
+Responda a los incidentes con rapidez con la orquestación y la automatización de tareas comunes de seguridad integradas.
+Microsoft Sentinel ayuda a habilitar las operaciones de seguridad de un extremo a otro, en un centro de operaciones de seguridad (SOC) moderno. A continuación se enumeran algunas de las características clave de Microsoft Sentinel.
+
+En este diagrama se muestra la funcionalidad de un extremo a otro de Microsoft Sentinel.
+
+#### Recopile 
+
+datos a escala de nube de todos los usuarios, dispositivos, aplicaciones y de toda la infraestructura, tanto en el entorno local como en diversas nubes.
+
+#### Detecte
+
+amenazas que antes no se abarcaban y reduzca los falsos positivos mediante un análisis y una inteligencia de amenazas sin precedentes.
+#### Investigue 
+
+amenazas con inteligencia artificial (IA) y busque actividades sospechosas a gran escala, aprovechando el trabajo de ciberseguridad que ha realizado Microsoft durante décadas.
+### Responda
+
+a los incidentes con rapidez con la orquestación y la automatización de tareas comunes de seguridad integradas.
+Microsoft Sentinel ayuda a habilitar las operaciones de seguridad de un extremo a otro, en un centro de operaciones de seguridad (SOC) moderno. A continuación se enumeran algunas de las características clave de Microsoft Sentinel.
+
+## Descripción de los costos de Sentinel
+
+Microsoft Sentinel proporciona análisis de seguridad inteligente en toda la empresa. Los datos de este análisis se almacenan en un área de trabajo de Log Analytics de Azure Monitor. La facturación se basa en el volumen de datos ingeridos para su análisis en Microsoft Sentinel y almacenados en el área de trabajo de Log Analytics de Azure Monitor. Hay dos maneras de pagar por el servicio Microsoft Sentinel: reservas de capacidad y pago por uso.
+
+### Reservas de capacidad:
+
+con las reservas de capacidad, se le factura una tarifa fija en función del nivel seleccionado, lo que permite un costo total predecible para Microsoft Sentinel.
+
+### Pago por uso: 
+
+con los precios de pago por uso, se le factura por gigabyte (GB) el volumen de datos ingeridos para el análisis en Microsoft Sentinel y almacenados en el área de trabajo de Log Analytics de Azure Monitor.
+
+
+
+
 
 
 
