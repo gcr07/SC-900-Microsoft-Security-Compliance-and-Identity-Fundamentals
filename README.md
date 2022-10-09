@@ -909,6 +909,75 @@ con las reservas de capacidad, se le factura una tarifa fija en función del niv
 con los precios de pago por uso, se le factura por gigabyte (GB) el volumen de datos ingeridos para el análisis en Microsoft Sentinel y almacenados en el área de trabajo de Log Analytics de Azure Monitor.
 
 
+# Describir los servicios de Microsoft 365 Defender
+
+![image](https://user-images.githubusercontent.com/63270579/194733372-0e8522cc-1ad8-4153-883d-a24d257276d8.png)
+
+Microsoft 365 Defender es un conjunto de Enterprise Defense que protege frente a sofisticados ciberataques. Con Microsoft 365 Defender, puede coordinar de forma nativa la detección, prevención, investigación y respuesta a las amenazas en puntos de conexión, identidades, correo electrónico y aplicaciones.
+
+Microsoft 365 Defender permite a los administradores evaluar las señales de amenazas de puntos de conexión, identidades, correo electrónico y aplicaciones para determinar el ámbito y el impacto de un ataque. Proporciona información más detallada sobre cómo se produjo la amenaza y qué sistemas se han visto afectados. Microsoft 365 Defender puede realizar una acción automatizada para evitar o detener el ataque.
+
+![image](https://user-images.githubusercontent.com/63270579/194733419-258b13e1-53cd-4e96-a187-a7a6c3a53aff.png)
+
+## Describir Microsoft Defender for Office 365
+
+Microsoft Defender for Office 365 protege su organización frente a amenazas malintencionadas que plantean los mensajes de correo electrónico, los vínculos (URL) y las herramientas de colaboración, incluidos Microsoft Teams, SharePoint Online, OneDrive para la empresa y otros clientes de Office.
+
+![image](https://user-images.githubusercontent.com/63270579/194733452-6abdd4ad-59bd-4235-80c0-ed4460c7858b.png)
+
+Microsoft Defender for Office 365 está disponible en dos planes. El plan que elija influye en las herramientas que verá y usará. Es importante asegurarse de que selecciona el mejor plan para satisfacer las necesidades de su organización.
+
+![image](https://user-images.githubusercontent.com/63270579/194733668-87281958-aad8-42df-bf47-82d5d43a8932.png)
+
+
+
+![image](https://user-images.githubusercontent.com/63270579/194733707-4ef43841-ac74-40af-b7f4-3ca9ff0baeaa.png)
+
+
+![image](https://user-images.githubusercontent.com/63270579/194733724-6c682482-2dd1-41f8-920f-d9fd983afb22.png)
+
+
+## Microsoft Defender para punto de conexión
+
+![image](https://user-images.githubusercontent.com/63270579/194733816-a50700a0-4766-47e1-9a1e-33cd68a8c1f9.png)
+
+Microsoft Defender para punto de conexión es una plataforma diseñada para ayudar a las redes empresariales a proteger los puntos de conexión. Lo hace mediante la prevención, detección, investigación y respuesta a amenazas avanzadas. Microsoft Defender para punto de conexión incorpora tecnología integrada en los servicios en la nube de Windows 10 y MSFT.
+
+Esta tecnología incluye sensores de comportamiento de punto de conexión que recopilan y procesan señales del sistema operativo, análisis de seguridad en la nube que convierten las señales en información detallada, detecciones y recomendaciones, e información sobre amenazas para identificar herramientas y técnicas de atacantes, y generar alertas.
+
+## Descripción de Microsoft Defender for Cloud Apps
+
+Microsoft Defender for Cloud Apps es un agente de seguridad de acceso a la nube (CASB). Se trata de una solución completa entre SaaS que funciona como intermediario entre un usuario en la nube y el proveedor de la nube. Microsoft Defender for Cloud Apps proporciona una amplia visibilidad a sus servicios en la nube, control sobre el desplazamiento de los datos y análisis sofisticado para identificar y combatir ciberamenazas en todos los servicios en la nube de Microsoft y de terceros. Use este servicio para obtener visibilidad en Shadow IT mediante la detección de las aplicaciones en la nube que se usan. Puede controlar y proteger los datos de las aplicaciones una vez que las autorice para el servicio. 
+
+### Cloud access security broker ( CASB ) un agente ;)
+
+A cloud access security broker, often abbreviated (CASB), is a security policy enforcement point positioned between enterprise users and cloud service providers. CASBs can combine multiple different security policies, from authentication and credential mapping to encryption, malware detection, and more, offering flexible enterprise solutions that help ensure cloud app security across authorized and unauthorized applications, and managed and unmanaged devices
+
+### ¿Qué es un agente de seguridad de acceso a la nube?
+
+Un CASB actúa como un equipo selector para remediar el acceso en tiempo real entre los usuarios empresariales y los recursos en la nube que usan, dondequiera que estén ubicados e independientemente del dispositivo que estén usando. Los CASB ayudan a las organizaciones a proteger su entorno ofreciendo una amplia gama de funcionalidades en los pilares siguientes:
+
+Visibilidad: detección del uso de aplicaciones y servicios en la nube y provisión de visibilidad en Shadow IT.
+
+Protección contra amenazas: supervisión de las actividades del usuario en busca de comportamientos anómalos, control del acceso a los recursos a través de controles de acceso y mitigación del malware.
+
+Seguridad de datos: identificación, clasificación y control de la información confidencial, y protección contra actores malintencionados.
+
+Cumplimiento: evaluación del cumplimiento de los servicios en la nube.
+
+Estas áreas de funcionalidad representan la base del marco Defender for Cloud Apps que se describe a continuación.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
