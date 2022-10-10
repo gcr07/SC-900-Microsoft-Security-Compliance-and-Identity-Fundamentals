@@ -1018,11 +1018,69 @@ Existe una puntuación de seguridad de Microsoft 365 Defender y Microsoft Defend
 
 El acceso a Microsoft 365 Defender se configura con roles globales de Azure Active Directory o mediante roles personalizados.
 
+## Descripción del Portal de confianza de servicios y de la privacidad en Microsoft
+
+El Portal de confianza de servicios proporciona información, herramientas y otros recursos sobre las prácticas de seguridad, privacidad y cumplimiento de Microsoft. Inicie sesión con su cuenta de servicios en la nube de Microsoft para acceder a toda la documentación disponible
 
 
+![image](https://user-images.githubusercontent.com/63270579/194939214-b554a2c0-b364-4493-91bb-54ab7008cbd1.png)
+
+### Descripción de Microsoft Priva
+
+Microsoft Priva le ayuda a superar estos desafíos para que pueda alcanzar sus objetivos de privacidad. Las funcionalidades de Priva están disponibles mediante dos soluciones: Administración de riesgo de privacidad Priva, que ofrece visibilidad de las plantillas de directivas y datos de la organización para reducir los riesgos, y Solicitudes de derechos de los interesados Priva, que proporciona herramientas de automatización y flujo de trabajo para satisfacer solicitudes de datos.
+
+Microsoft Priva le ayuda a comprender los datos que almacena su organización mediante la detección automática de recursos de datos personales y la visualización de información esencial. Estas visualizaciones se pueden consultar en las páginas de información general y perfil de datos, a las que se puede acceder actualmente mediante el Portal de cumplimiento de Microsoft Purview.
+
+Priva evalúa los datos de la organización almacenados en los siguientes servicios de Microsoft 365 en el inquilino de Microsoft 365:
+
+Exchange Online
+
+SharePoint Online
+
+OneDrive para la Empresa
+
+Microsoft Teams
+
+## Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview ( que tipos de datos tienes )
+
+![image](https://user-images.githubusercontent.com/63270579/194942266-afe75cdc-b552-4eb0-9d02-0f0c296f81d1.png)
 
 
+Las organizaciones necesitan proteger todo tipo de información, incluida la información financiera y personal. Esto debe hacerse para garantizar que los clientes, empleados y la organización estén protegidos frente a riesgos. La organización debe mantener los estándares de cumplimiento dondequiera que opere.
 
+Microsoft Purview Information Protection detecta, clasifica y protege contenido confidencial y crítico para la empresa durante todo su ciclo de vida en toda la organización. Proporciona las herramientas necesarias para conocer los datos, protegerlos y evitar su pérdida.
+
+La Administración del ciclo de vida de los datos en Microsoft Purview administra el ciclo de vida del contenido mediante soluciones para importar, almacenar y clasificar los datos críticos para la empresa, de modo que puede conservar lo que necesita y eliminar lo que no necesita. Ofrece a las organizaciones la capacidad de controlar sus datos, con fines de cumplimiento normativo.
+
+![image](https://user-images.githubusercontent.com/63270579/194942385-2ef98f60-b26f-48b6-90b9-1a34dc79b7f2.png)
+
+**El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluciones dentro del área de cumplimiento se han cambiado de marca. Para más información sobre Microsoft Purview, vea el anuncio del blog.**
+
+Microsoft Purview incluye muchos tipos de información confidencial basados en patrones definidos por una expresión regular (regex) o una función.
+
+Algunos ejemplos son:
+
+Números de tarjeta de crédito
+
+Números de pasaporte o de identificación
+
+Números de cuentas bancarias
+
+Números de servicios de salud
+
+Los clasificadores que se pueden entrenar utilizan inteligencia artificial y aprendizaje automático para clasificar los datos de forma inteligente. Son especialmente útiles para clasificar datos únicos para una organización, como tipos específicos de contratos, facturas o registros de clientes. Este método de clasificación consiste más en entrenar un clasificador para identificar un elemento en función de lo que el elemento es, no de lo que contiene (coincidencia de patrones). Hay dos tipos de clasificadores disponibles:
+
+####  ¿Qué es el explorador de contenido?
+
+El explorador de contenido está disponible como una pestaña en el panel de clasificación de datos del Portal de cumplimiento. Permite a los administradores obtener visibilidad sobre el contenido que se ha resumido en el panel de información general.
+
+#### ¿Qué es el explorador de actividades?
+
+El explorador de actividades proporciona visibilidad sobre qué contenido se ha detectado y etiquetado, y dónde está. Permite supervisar lo que se está haciendo con el contenido etiquetado en toda la organización. Los administradores obtienen visibilidad de las actividades a nivel de documento, como los cambios y la degradación de etiquetas (por ejemplo, cuando alguien cambia una etiqueta de confidencial a pública).
+
+### Descripción de las directivas y las etiquetas de confidencialidad
+
+El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluciones dentro del área de cumplimiento se han cambiado de marca. Para más información sobre Microsoft Purview, vea el anuncio del blog.
 
 
 
