@@ -967,9 +967,56 @@ Cumplimiento: evaluación del cumplimiento de los servicios en la nube.
 
 Estas áreas de funcionalidad representan la base del marco Defender for Cloud Apps que se describe a continuación.
 
+### Office 365 Cloud App Security
+
+Cloud App Security de Office 365 es un subconjunto de Microsoft Defender for Cloud Apps que proporciona visibilidad y control mejorados para Office 365. Office 365 Cloud App Security incluye detección de amenazas basada en registros de actividad del usuario, descubrimiento de Shadow IT para aplicaciones con funcionalidad similar a las ofertas de Office 365, control de permisos de aplicaciones para Office 365 y aplicación de controles de acceso y sesión.
+
+### Cloud App Discovery mejorado en Azure Active Directory
+
+Azure Active Directory Premium P1 incluye Azure Active Directory Cloud App Discovery sin coste adicional. Esta característica se basa en las capacidades de Cloud Discovery de Microsoft Defender for Cloud Apps, que proporcionan una mayor visibilidad del uso de aplicaciones en la nube en la organización.
+
+Proporciona un subconjunto reducido de las capacidades de detección de Microsoft Defender for Cloud Apps.
+
+Use Microsoft Defender for Cloud Apps para identificar de forma inteligente y proactiva, y responder a las amenazas de los servicios en la nube de Microsoft y que no sean de Microsoft.
+
+## Microsoft Defender for Identity
+
+Microsoft Defender for Identity es una solución de seguridad basada en la nube. Utiliza sus datos de Active Directory local (llamados señales) para identificar, detectar e investigar amenazas avanzadas, identidades comprometidas y acciones internas malintencionadas dirigidas a su organización.
+
+Microsoft Defender for Identity permite a los profesionales de seguridad administrar la funcionalidad de entornos híbridos para hacer lo siguiente:
+
+Supervisar las actividades y el comportamiento del usuario del perfil.
+Proteger las identidades de usuario y reducir la superficie expuesta a ataques.
+Identificar e investigar actividades sospechosas y ataques avanzados a lo largo de la cadena de eliminación del ciberataque.
+Proporcionar información clara sobre los incidentes en una escala de tiempo sencilla para una rápida evaluación de prioridade
+
+Defender for Identity supervisa y analiza las actividades de los usuarios y la información en su red, incluidos los permisos y la pertenencia a grupos, y crea una línea de base de comportamiento para cada usuario.
+
+Defender for Identity proporciona información sobre las configuraciones de identidades y procedimientos recomendados de seguridad. A través de informes de seguridad y análisis de perfil de usuario, Defender for Identity ayuda a reducir la superficie de ataque de su organización, lo que dificulta comprometer las credenciales de usuario y promover un ataque.
+
+Normalmente, los ataques se lanzan contra cualquier entidad accesible, como un usuario con pocos privilegios. Después, los ataques se mueven rápidamente hasta que el atacante accede a recursos valiosos. Estos recursos pueden incluir cuentas confidenciales, administradores de dominio y datos extremadamente confidenciales. Defender for Identity identifica estas amenazas avanzadas en el origen a lo largo de toda la cadena de eliminación del ciberataque:
+
+Reconocimiento
+
+Credenciales en peligro
+
+Movimientos laterales
+
+Dominación de dominio
+
+## Descripción del portal de Microsoft 365 Defender
+
+Microsoft 365 Defender coordina de forma nativa la detección, la prevención, la investigación y la respuesta a través de los puntos de conexión, las identidades, el correo electrónico y las aplicaciones para proporcionar protección integrada frente a ataques sofisticados. El portal de Microsoft 365 Defender reúne estas funcionalidades en un lugar central diseñado para satisfacer las necesidades de los equipos de seguridad y resalta el acceso rápido a la información con diseños más sencillos. A través del portal de Microsoft 365 Defender puede ver el estado de seguridad de su organización.
+
+Debe tener asignado un rol adecuado, como administrador global, administrador de seguridad, operador de seguridad o lector de seguridad en Azure Active Directory para acceder al portal de Microsoft 365 Defender.
 
 
+#### Diferencias entre la puntuación de seguridad de Microsoft 365 Defender y Microsoft Defender for Cloud
 
+Existe una puntuación de seguridad de Microsoft 365 Defender y Microsoft Defender for Cloud, pero son ligeramente distintas. La puntuación de seguridad de Microsoft Defender for Cloud es una medida de la posición de seguridad de las suscripciones de Azure. La puntuación de seguridad del portal de Microsoft 365 Defender es una medida de la posición de seguridad de la organización en las aplicaciones, los dispositivos y las identidades.
+
+
+El acceso a Microsoft 365 Defender se configura con roles globales de Azure Active Directory o mediante roles personalizados.
 
 
 
