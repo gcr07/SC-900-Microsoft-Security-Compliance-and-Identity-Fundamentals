@@ -1082,7 +1082,42 @@ El explorador de actividades proporciona visibilidad sobre qué contenido se ha 
 
 El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluciones dentro del área de cumplimiento se han cambiado de marca. Para más información sobre Microsoft Purview, vea el anuncio del blog.
 
+### Descripción de la prevención de la pérdida de datos
 
+La prevención de pérdida de datos (DLP) de Microsoft Purview es una manera de proteger la información confidencial y evitar su divulgación de forma accidental. Con las directivas DLP, los administradores pueden hacer lo siguiente:
+
+![image](https://user-images.githubusercontent.com/63270579/194950360-a8e38b94-a6e8-46e7-8c03-e1ee02521784.png)
+
+Por ejemplo, un administrador puede configurar una directiva DLP que ayude a detectar información sujeta al cumplimiento de una normativa, como la Ley de transferencia y responsabilidad de seguros de salud (HIPAA), en todos los sitios de SharePoint y OneDrive para la Empresa. El administrador puede impedir que los documentos correspondientes se compartan de forma inapropiada.
+
+![image](https://user-images.githubusercontent.com/63270579/194951042-55b0ee77-48d8-4c8f-aec6-1c16c19dc7ca.png)
+
+
+Las reglas de la directiva se clasifican por orden de prioridad en cuanto a su implementación. Por ejemplo, en el diagrama anterior, la regla uno tiene prioridad sobre la regla dos, etc.
+
+#### Puntos de conexión de servicio de red virtual
+
+El punto de conexión de servicio de red virtual (VNet) proporciona conectividad directa y segura con los servicios de Azure por medio de una ruta optimizada a través de la red troncal de Azure. Los puntos de conexión permiten proteger los recursos de servicio de Azure críticos únicamente para las redes virtuales. Los puntos de conexión de servicio permiten a las direcciones IP privadas de la red virtual alcanzar el punto de conexión de un servicio de Azure sin necesidad de una dirección IP pública en la red virtual.
+
+![image](https://user-images.githubusercontent.com/63270579/194955123-a47df2f8-afcb-49f5-8993-e8c3e34711a5.png)
+
+
+Las características de prevención de la pérdida de datos se han ampliado a los mensajes de chat y de canal de Microsoft Teams, incluidos los mensajes de canales privados. Con DLP, los administradores ahora pueden definir directivas que impidan que los usuarios compartan información confidencial en un canal o una sesión de chat de Teams, ya sea en un mensaje o en un archivo. Al igual que con Exchange, Outlook, SharePoint y OneDrive para la Empresa, los administradores pueden usar las sugerencias de las directivas DLP que se muestran a los usuarios para explicarles por qué se ha desencadenado una directiva. Por ejemplo, en la captura de pantalla siguiente se muestra una sugerencia de directiva en un mensaje de chat que se ha bloqueado porque el usuario ha intentado compartir un número de la seguridad social de Estados Unidos.
+
+Con las directivas DLP, Microsoft Teams puede ayudar a los usuarios a colaborar de forma segura y en línea con los requisitos de cumplimiento.
+
+## Descripción de las directivas y las etiquetas de retención
+
+Las directivas y las etiquetas de retención ayudan a las organizaciones a administrar y controlar la información, ya que garantizan que el contenido se mantenga únicamente durante el tiempo necesario y, después, se elimine de forma permanente. La aplicación de etiquetas de retención y la asignación de directivas de retención ayuda a las organizaciones
+
+![image](https://user-images.githubusercontent.com/63270579/194955838-f6d21788-0ca3-4d2d-b4c0-520a8c1df33d.png)
+
+
+### Descripción de la administración de registros
+
+El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluciones dentro del área de cumplimiento se han cambiado de marca. La Administración de registros en Microsoft 365 ahora es la Administración de registros en Microsoft Purview. Para más información sobre Microsoft Purview, vea el anuncio del blog.
+
+![image](https://user-images.githubusercontent.com/63270579/194956931-7c5addbf-1caf-4ad0-82ec-89071e8c9c23.png)
 
 
 
