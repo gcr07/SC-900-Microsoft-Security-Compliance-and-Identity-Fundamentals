@@ -1132,5 +1132,46 @@ El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluc
 ![image](https://user-images.githubusercontent.com/63270579/194957926-77a0237d-cdd2-4ef7-b9c1-5c4964224d47.png)
 
 
+## Descripción de las capacidades de riesgo interno en Microsoft Purview
+
+La administración y reducción del riesgo en una organización comienza con la comprensión de los tipos de riesgos que se encuentran en el área de trabajo moderna. Algunos riesgos están controlados por eventos y factores externos y están fuera del control directo de una organización. Otros riesgos están impulsados por eventos internos y actividades de empleados que se pueden eliminar y evitar. Algunos ejemplos son los riesgos de acciones y comportamiento ilegales, inadecuados, no autorizados o no éticos por parte de los empleados y los administradores. Estos comportamientos pueden conducir a una amplia gama de riesgos internos de los empleados:
+
+Fugas de datos confidenciales y pérdida de datos
+
+Infracciones de confidencialidad
+
+Robo de propiedad intelectual (IP)
+
+Fraude
+
+Transacciones internas
+
+Infracciones de cumplimiento normativo
+
+![image](https://user-images.githubusercontent.com/63270579/194960014-a5ed58b4-817c-4061-a74b-d339012dbf3d.png)
+
+
+La administración de riesgos internos puede ayudarle a detectar, investigar y tomar medidas para mitigar los riesgos internos de la organización en varios escenarios comunes. Estos escenarios incluyen el robo de datos por parte de los empleados, la fuga intencional o accidental de información confidencial, el comportamiento ofensivo, etc. 
+
+
+### Descripción del cumplimiento de comunicaciones
+
+El Cumplimiento de comunicaciones en el Portal de cumplimiento de Microsoft Purview ayuda a minimizar los riesgos de comunicación, ya que permite a las organizaciones detectar, capturar y realizar acciones de corrección para mensajes inadecuados. Las directivas predefinidas y personalizadas en el cumplimiento de comunicaciones permiten examinar las comunicaciones internas y externas de las coincidencias de directivas para que puedan examinarlas los revisores elegidos.
+
+La identificación y resolución de problemas de compatibilidad con el Cumplimiento de comunicaciones en Microsoft Purview utiliza el siguiente flujo de trabajo:
+
+El cumplimiento de comunicaciones permite a los revisores investigar correos electrónicos examinados y mensajes en Microsoft Teams, Exchange Online, Yammer o comunicaciones de terceros en una organización, con las acciones de corrección adecuadas para asegurarse de que cumplen con los estándares de mensajes de la organización.
+
+### Descripción de las barreras de información
+
+La característica de Barreras de información en Microsoft Purview se admite en Microsoft Teams, SharePoint Online y OneDrive para la Empresa.
+
+Las barreras de la información son directivas que los administradores pueden configurar para impedir que personas o grupos se comuniquen entre sí. Cuando se aplican directivas de barrera de información, las personas que no deben comunicarse con otros usuarios específicos no pueden encontrar ni seleccionar esos usuarios, así como tampoco chatear con ellos ni llamarlos. Con las barreras de información, las comprobaciones están en vigor para evitar la comunicación no autorizada.
+
+![image](https://user-images.githubusercontent.com/63270579/194960977-af664f03-1351-4671-84bf-6cd99d6aa520.png)
+
+![image](https://user-images.githubusercontent.com/63270579/194961042-9ca05576-9067-4dbe-ac12-21d036aa96c2.png)
+
+### Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview
 
 
