@@ -1121,5 +1121,16 @@ El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluc
 
 
 
+#### Prueba de conocimiento ( conceptos clave que puedes entender) 
+
+![image](https://user-images.githubusercontent.com/63270579/194957734-67ff5526-cff5-4dde-bc3f-6c99f72dd76c.png)
+
+![image](https://user-images.githubusercontent.com/63270579/194957778-098e1bcd-83b1-4783-8577-d946315cb05a.png)
+
+![image](https://user-images.githubusercontent.com/63270579/194957870-e9424943-153e-4c5d-a82b-cb0a64587741.png)
+
+![image](https://user-images.githubusercontent.com/63270579/194957926-77a0237d-cdd2-4ef7-b9c1-5c4964224d47.png)
+
+
 
 
