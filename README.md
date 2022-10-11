@@ -1225,3 +1225,11 @@ El portal de gobernanza de Microsoft Purview es un servicio unificado de goberna
 Cree un mapa holístico actualizado del panorama de sus datos con detección automatizada de datos, clasificación de datos confidenciales y linaje de datos de principio a fin.
 Habilite los conservadores de datos para administrar y proteger su patrimonio de datos.
 Permita a los consumidores de datos encontrar datos valiosos y confiables.
+
+![image](https://user-images.githubusercontent.com/63270579/195148581-5a415e30-76a5-4b24-b6de-226e0df83432.png)
+
+
+![image](https://user-images.githubusercontent.com/63270579/195148636-899aa6e3-11bd-47c3-b8be-0bfc77fddce3.png)
+
+
+
