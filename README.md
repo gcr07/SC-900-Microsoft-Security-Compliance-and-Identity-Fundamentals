@@ -1175,3 +1175,53 @@ Las barreras de la información son directivas que los administradores pueden co
 ### Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview
 
 
+Es posible que las organizaciones necesiten identificar, recopilar o auditar información por motivos legales, normativos o empresariales. Obtenga información sobre cómo las funcionalidades de eDiscovery y de auditoría de Microsoft Purview ayudan a las organizaciones a encontrar datos pertinentes rápidamente.
+
+> El Cumplimiento de Microsoft 365 ahora se denomina Microsoft Purview y las soluciones dentro del área de cumplimiento se han cambiado de marca. Core eDiscovery en Office 365 ahora es eDiscovery (Estándar) en Microsoft Purview. eDiscovery avanzado en Office 365 ahora es eDiscovery (Premium) en Microsoft Purview.
+
+La exhibición de documentos electrónicos, o eDiscovery, es el proceso de identificación y entrega de información electrónica que se puede utilizar como prueba en casos legales. Puede usar herramientas de eDiscovery en Microsoft Purview para buscar contenido en Exchange Online, OneDrive para la Empresa, SharePoint Online, Microsoft Teams, Grupos de Microsoft 365 y equipos de Yammer. Puede buscar buzones y sitios en la misma búsqueda de eDiscovery y, a continuación, exportar los resultados de la búsqueda. Puede usar los casos de eDiscovery para identificar, suspender y exportar el contenido que haya encontrado en los buzones y sitios.
+
+![image](https://user-images.githubusercontent.com/63270579/195144561-844fa841-dfa2-4591-bd0d-4e940a4c1c88.png)
+
+Las soluciones de auditoría de Microsoft Purview ayudan a las organizaciones a responder eficazmente a eventos de seguridad, investigaciones forenses, investigaciones internas y obligaciones de cumplimiento. Miles de operaciones de usuario y administrador realizadas en docenas de servicios y soluciones de Microsoft 365 se capturan, registran y conservan en el registro de auditoría unificado de su organización. Los operadores de seguridad, administradores de TI, equipos de riesgo interno e investigadores legales y de cumplimiento de su organización pueden buscar en los registros de auditoría de estos eventos. Esta funcionalidad proporciona visibilidad de las actividades realizadas en toda la organización en Microsoft 365.
+
+Microsoft Purview proporciona dos soluciones de auditoría: Auditoría (Estándar) y Auditoría (Premium).
+
+
+![image](https://user-images.githubusercontent.com/63270579/195145871-b2428f16-e867-4d29-82e9-1736eb88aef7.png)
+
+
+![image](https://user-images.githubusercontent.com/63270579/195145954-83bd0443-e9dc-4b89-a25e-b22f379cea52.png)
+
+
+## Descripción de las funcionalidades de la gobernanza de recursos en Azure
+
+### Descripción de Azure Policy
+
+Azure Policy evalúa todos los recursos de Azure y los recursos habilitados para Arc (tipos de recursos específicos hospedados fuera de Azure).
+
+Azure Policy evalúa si las propiedades de los recursos coinciden con las reglas de negocio. Estas reglas de negocio se describen mediante el formato JSON y se conocen como definiciones de directiva. Para una administración simplificada, puede agrupar varias reglas de negocio para formar una única iniciativa de directiva. Una vez formadas las reglas de negocio, puede asignar la definición o la iniciativa de directiva a cualquier ámbito de recursos admitidos, como grupos de administración, suscripciones, grupos de recursos o recursos individuales.
+
+## ¿Cuál es la diferencia entre Azure Policy y el control de acceso basado en roles (RBAC) de Azure?
+
+Es importante no confundir Azure Policy y Azure RBAC. Use Azure Policy para asegurarse de que el estado del recurso sea compatible con las reglas de negocio de su organización, independientemente de quién haya realizado el cambio o de quién tenga permiso para realizar cambios. Azure Policy evaluará el estado de un recurso y actuará para asegurarse de que el recurso siga siendo compatible.
+
+Azure RBAC, en cambio, se centra en la administración de las acciones del usuario en ámbitos diferentes. Azure RBAC administra quién tiene acceso a los recursos de Azure, qué se puede hacer con esos recursos y a qué áreas se puede acceder. Si es necesario controlar las acciones, se usaría Azure RBAC. Si una persona tiene acceso para realizar una acción, pero el resultado es un recurso no compatible, Azure Policy todavía bloqueará la acción.
+
+Azure RBAC y Azure Policy deben usarse conjuntamente para lograr un control total del ámbito en Azure
+
+## Descripción del uso de Azure Blueprints
+
+Azure Blueprints proporciona una manera de definir un conjunto repetible de recursos de Azure. Azure Blueprints permite a los equipos de desarrollo aprovisionar y ejecutar rápidamente nuevos entornos, a sabiendas de que cumplen los requisitos de cumplimiento de la organización. Los equipos también pueden aprovisionar recursos de Azure en varias suscripciones simultáneamente, lo que significa que pueden lograr tiempos de desarrollo más cortos y una entrega más rápida.
+
+Azure Blueprints ayuda a garantizar que los recursos de Azure se implementan según los requisitos de cumplimiento. Sin embargo, se debe usar un servicio como Azure Policy para supervisar continuamente los recursos y garantizar una continuidad de los requisitos de cumplimiento.
+
+## Describir las funcionalidades en el portal de gobernanza de Microsoft Purview
+
+Microsoft Purview está diseñado para abordar los desafíos asociados al rápido crecimiento de los datos y para ayudar a las empresas a sacar el máximo partido de los recursos de información.
+
+El portal de gobernanza de Microsoft Purview es un servicio unificado de gobernanza de datos que le ayuda a administrar los datos locales, de varias nubes y de software como servicio (SaaS). El portal de gobernanza de Microsoft Purview le permite realizar las siguientes acciones:
+
+Cree un mapa holístico actualizado del panorama de sus datos con detección automatizada de datos, clasificación de datos confidenciales y linaje de datos de principio a fin.
+Habilite los conservadores de datos para administrar y proteger su patrimonio de datos.
+Permita a los consumidores de datos encontrar datos valiosos y confiables.
