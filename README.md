@@ -1241,4 +1241,53 @@ Privacidad. Cree un entorno de trabajo más resistente a la privacidad. La admin
 Administración de riesgos internos. Estas soluciones ayudan a las organizaciones a identificar, analizar y corregir los riesgos internos antes de que causen daños. Se incluyen el cumplimiento de comunicaciones, las barreras de información y la administración de riesgos internos.
 Detección y respuesta. Estas soluciones ayudan a las organizaciones a encontrar, investigar y responder rápidamente con los datos pertinentes. Se incluyen auditorías, solicitudes de interesados y eDiscovery.
 
+## Descripción del Administrador de cumplimiento
+
+El Administrador de cumplimiento de Microsoft Purview es una característica del Portal de cumplimiento de Microsoft Purview que ayuda a los administradores a administrar los requisitos de cumplimiento de una organización con mayor facilidad y comodidad. El Administrador de cumplimiento ayuda a las organizaciones a lo largo del recorrido del cumplimiento; por ejemplo, la creación del inventario de los riesgos de protección de datos, la administración de las complejidades de la implementación de controles, la actualización de las regulaciones y las certificaciones y la generación de informes para los auditores.
+
+Controles
+Un control es un requisito de un reglamento, un estándar o una directiva. Define cómo evaluar y administrar la configuración del sistema, el proceso de la organización y las personas responsables de cumplir el requisito específico de un reglamento, un estándar o una directiva.
+
+El Administrador de cumplimiento realiza un seguimiento de los siguientes tipos de controles:
+
+## Controles administrados por Microsoft:
+
+son controles para los Servicios en la nube de Microsoft; asimismo, Microsoft es responsable de implementarlos.
+Sus controles: a veces se denominan "controles administrados por el cliente" y se implementan y administran en la organización.
+Controles compartidos: la organización y Microsoft comparten la responsabilidad de implementar estos controles.
+Compliance Manager evalúa continuamente los controles mediante el examen del entorno de Microsoft 365 y la detección de la configuración del sistema, actualizando continua y automáticamente el estado técnico de la acción.
+
+## Valoraciones
+
+Una valoración es una agrupación de controles de una directiva, una norma o un reglamento específicos. Si completa las acciones de una valoración, cumplirá los requisitos de un estándar, un reglamento o una ley. Por ejemplo, es posible que una organización tenga una valoración que, al completarse, equipare su configuración de Microsoft 365 con los requisitos de la norma ISO 27001.
+
+Una valoración consta de varios componentes, incluidos los servicios que están dentro del ámbito, los controles y una puntuación de valoración que muestra el progreso para completar las acciones necesarias para el cumplimiento.
+
+## Plantillas
+
+El Administrador de cumplimiento proporciona plantillas para que los administradores puedan crear valoraciones rápidamente. Igualmente, pueden modificar estas plantillas para crear una valoración optimizada para sus necesidades. Los administradores también pueden crear una valoración personalizada mediante la creación de una plantilla con sus propias acciones y controles. Por ejemplo, es posible que el administrador quiera crear una plantilla que abarque un control interno del proceso empresarial o un estándar de protección de datos regional que no esté incluido en una de las más de 150 plantillas de valoración generadas previamente de Microsoft.
+
+
+## Acciones de mejora
+
+Las acciones de mejora le permiten centralizar las actividades de cumplimiento. Cada acción de mejora proporciona instrucciones recomendadas para que las organizaciones puedan cumplir los estándares y las regulaciones de protección de datos. Asimismo, las acciones de mejora se pueden asignar a los usuarios de la organización para que realicen trabajos de implementación y pruebas. Los administradores también pueden almacenar la documentación, las notas y las actualizaciones de estado del Registro en la acción de mejora
+
+## Descripción del uso y las ventajas de la puntuación de cumplimiento
+
+La puntuación de cumplimiento mide el progreso según la realización de las acciones de mejora recomendadas en los controles. Asimismo, la puntuación permite que una organización comprenda su postura de cumplimiento actual. También permite que la organización clasifique por orden de prioridad las acciones en función de su potencial para reducir el riesgo.
+
+Los administradores pueden obtener un desglose de la puntuación de cumplimiento en el panel de información general del Administrador de cumplimiento.
+
+## ¿Cuál es la diferencia entre el Administrador de cumplimiento y la puntuación de cumplimiento?
+
+El Administrador de cumplimiento es una solución completa en el Portal de cumplimiento de Microsoft Purview, que permite que los administradores administren y realicen un seguimiento de las actividades de cumplimiento. En cambio, la puntuación de cumplimiento es un cálculo de la posición de cumplimiento general en toda la organización. La puntuación de cumplimiento está disponible a través del Administrador de cumplimiento.
+
+El Administrador de cumplimiento ofrece a los administradores las funciones que necesitan para comprender y aumentar su puntuación de cumplimiento, de modo que puedan mejorar en última instancia la posición de cumplimiento de la organización y que así pueda lograr los requisitos de cumplimiento.
+
+![image](https://user-images.githubusercontent.com/63270579/195698261-d87364cf-578a-4293-b592-1f8eb717c387.png)
+
+![image](https://user-images.githubusercontent.com/63270579/195698336-7f15f5b7-e009-4555-bfe7-a40cae4a776d.png)
+
+
+
 
