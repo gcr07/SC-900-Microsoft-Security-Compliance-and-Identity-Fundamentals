@@ -1232,4 +1232,13 @@ Permita a los consumidores de datos encontrar datos valiosos y confiables.
 ![image](https://user-images.githubusercontent.com/63270579/195148636-899aa6e3-11bd-47c3-b8be-0bfc77fddce3.png)
 
 
+La tarjeta Administrador de cumplimiento. Esta tarjeta le lleva a la solución Administrador de cumplimiento de Microsoft Purview. El Administrador de cumplimiento ayuda a simplificar la forma de administrar el cumplimiento. Calcula una puntuación de cumplimiento basada en riesgos que mide el progreso para completar las acciones recomendadas a fin de reducir los riesgos asociados con la protección de datos y los estándares normativos. La solución Administrador de cumplimiento también proporciona funcionalidades de flujo de trabajo y asignación de controles integrada para ayudarle a llevar a cabo de forma eficaz acciones de mejora.
+
+La tarjeta Catálogo de soluciones se vincula a colecciones de soluciones integradas que facilitan la administración de escenarios de cumplimiento de un extremo a otro. Entre las áreas de soluciones se incluyen las siguientes:
+
+Protección y gobernanza de la información. Estas soluciones ayudan a las organizaciones a clasificar, proteger y conservar los datos donde residen y dondequiera que vayan. Se incluyen la administración del ciclo de vida de los datos, la prevención de pérdida de datos, la protección de la información y la administración de registros.
+Privacidad. Cree un entorno de trabajo más resistente a la privacidad. La administración de privacidad proporciona conclusiones prácticas sobre los datos personales de la organización para ayudarle a detectar problemas y reducir los riesgos.
+Administración de riesgos internos. Estas soluciones ayudan a las organizaciones a identificar, analizar y corregir los riesgos internos antes de que causen daños. Se incluyen el cumplimiento de comunicaciones, las barreras de información y la administración de riesgos internos.
+Detección y respuesta. Estas soluciones ayudan a las organizaciones a encontrar, investigar y responder rápidamente con los datos pertinentes. Se incluyen auditorías, solicitudes de interesados y eDiscovery.
+
 
