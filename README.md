@@ -1324,8 +1324,117 @@ Azure Cosmos DB es una base de datos NoSQL completamente administrada para el de
 
 Como un servicio completamente administrado, Azure Cosmos DB le quita la administración de la base de datos con la administración automática, las actualizaciones y la aplicación de parches. También gestiona la gestión de la capacidad con opciones rentables de escalado automático y sin servidor que responden a las necesidades de las aplicaciones para hacer coincidir la capacidad con la demanda.
  
+ El servicio está diseñado para ayudar con la configuración del entorno . Esta configuración a menudo consta de un conjunto de grupos de recursos, políticas, asignaciones de roles e implementaciones de plantillas ARM. Un blueprint es un paquete que reúne cada uno de estos tipos de artefactos y le permite componer y crear versiones de ese paquete, incluso a través de una canalización de integración continua y entrega continua (CI/CD). En última instancia, cada uno se asigna a una suscripción en una sola operación que se puede auditar y rastrear.
  
+ ##  Azure Policy 
  
+ Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. These business rules, described in JSON format, are known as policy definitions. To simplify management, several business rules can be grouped together to form a policy initiative (sometimes called a policySet)
+ 
+ ## Azure Policy Vs Azure RBAC ( role-based access control (Azure RBAC))
+ 
+There are a few key differences between Azure Policy and Azure role-based access control (Azure RBAC). Azure Policy evaluates state by examining properties on resources that are represented in Resource Manager and properties of some Resource Providers. Azure Policy doesn't restrict actions (also called operations). Azure Policy ensures that resource state is compliant to your business rules without concern for who made the change or who has permission to make a change. Some Azure Policy resources, such as policy definitions, initiative definitions, and assignments, are visible to all users. This design enables transparency to all users and services for what policy rules are set in their environment.
+
+Azure RBAC focuses on managing user actions at different scopes. If control of an action is required, then Azure RBAC is the correct tool to use. Even if an individual has access to perform an action, if the result is a non-compliant resource, Azure Policy still blocks the create or update.
+
+The combination of Azure RBAC and Azure Policy provides full scope control in Azure.
+ 
+ ## Get started with information barriers
+ 
+ Information barriers (Chinese Walls) are established organizational arrangements which are designed to prevent the flow of information between separate departments. They are used by legal practices to rebut the presumption of imputed knowledge.
+ 
+ ## Learn about communication compliance
+ 
+ Microsoft Purview Communication Compliance es una solución de riesgo interno que ayuda a minimizar los riesgos de comunicación al ayudarlo a detectar, capturar y actuar sobre mensajes inapropiados en su organización. Las políticas predefinidas y personalizadas le permiten escanear comunicaciones internas y externas en busca de coincidencias de políticas para que puedan ser examinadas por revisores designados. Los revisores pueden investigar el correo electrónico escaneado, los equipos de Microsoft, Yammer o las comunicaciones de terceros en su organización y tomar las medidas adecuadas para asegurarse de que cumplen con los estándares de mensajes de su organización.
+ 
+ ## Learn about insider risk management
+ 
+ Microsoft Purview Insider Risk Management es una solución de cumplimiento que ayuda a minimizar los riesgos internos al permitirle detectar, investigar y actuar sobre actividades maliciosas e inadvertidas en su organización. Las políticas de riesgo de Insider le permiten definir los tipos de riesgos para identificar y detectar en su organización, lo que incluye actuar en casos y escalar casos a Microsoft eDiscovery (Premium) si es necesario. Los analistas de riesgos de su organización pueden tomar rápidamente las medidas adecuadas para asegurarse de que los usuarios cumplan con los estándares de cumplimiento de su organización.
+ 
+ ### Puntos débiles de riesgo modernos
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/197597877-45c07de1-b826-4e28-9eda-b0b619f7ab2a.png)
+
+ ![image](https://user-images.githubusercontent.com/63270579/197597969-9a78f402-c031-4393-8849-45941581e2b3.png)
+
+## Learn about retention policies and retention labels
+
+Para la mayoría de las organizaciones, el volumen y la complejidad de sus datos aumentan a diario: correo electrónico, documentos, mensajes instantáneos y más. Administrar o gobernar de manera efectiva esta información es importante porque necesita:
+
+retener contenido	Evite la eliminación permanente y permanezca disponible para eDiscovery
+Eliminar contenido	Elimine permanentemente el contenido de su organización
+
+![image](https://user-images.githubusercontent.com/63270579/197599076-8031989f-a52d-471a-b956-4041d74dbc14.png)
+
+
+Use una política de retención para asignar la misma configuración de retención para el contenido a nivel de sitio o buzón, y use una etiqueta de retención para asignar configuraciones de retención a nivel de elemento (carpeta, documento, correo electrónico).
+
+![image](https://user-images.githubusercontent.com/63270579/197599319-f514ed51-0be8-4805-aff2-2dc4ab618265.png)
+
+
+***prevención de pérdida de datos (DLP)***
+ 
+ ![image](https://user-images.githubusercontent.com/63270579/197599604-e1b2ee5a-9769-4515-87d7-a82fa960fec1.png)
+
+
+## Describe Records Management
+
+Un sistema de gestión de registros, también conocido como gestión de registros e información, es una solución para que las organizaciones administren registros reglamentarios, legales y críticos para el negocio. La administración de registros para Microsoft Purview lo ayuda a cumplir con las obligaciones legales de su organización, brinda la capacidad de demostrar el cumplimiento de las reglamentaciones y aumenta la eficiencia con la disposición regular de elementos que ya no es necesario conservar, que ya no tienen valor o que ya no se requieren para el negocio. propósitos
+
+![image](https://user-images.githubusercontent.com/63270579/197601127-f19bb0a2-62d1-43ca-8290-2255d5fcfee8.png)
+
+## Describe Data Loss Prevention (DLP)
+
+ Las políticas que definen cómo se pueden compartir los datos se conocen como políticas de prevención de pérdida de datos (DLP).
+
+Para obtener más información sobre cómo proteger sus datos, consulte Políticas de prevención de pérdida de datos en la guía de administración de ***Microsoft Power Platform***
+
+## Describe sensitivity labels
+
+
+Las etiquetas de confidencialidad de *** Microsoft Purview Information Protection*** le permiten clasificar y proteger los datos de su organización, mientras se asegura de que la productividad del usuario y su capacidad para colaborar no se vean obstaculizadas.
+
+## Get started with activity explorer
+
+La descripción general de la clasificación de datos y las pestañas del explorador de contenido le brindan visibilidad sobre qué contenido se ha descubierto y etiquetado, y dónde está ese contenido. El Explorador de actividades completa este conjunto de funcionalidades al permitirle monitorear lo que se está haciendo con su contenido etiquetado. El Explorador de actividades proporciona una vista histórica de las actividades en su contenido etiquetado. La información de la actividad se recopila de los registros de auditoría unificados de Microsoft 365, se transforma y está disponible en la interfaz de usuario del explorador de actividades. El explorador de actividad informa sobre datos de hasta 30 días.
+
+
+![image](https://user-images.githubusercontent.com/63270579/197603083-bd22b0d5-1ade-4e71-b97e-5b646da5ec2b.png)
+
+
+## How to use the Microsoft data classification dashboard ( In the Microsoft Pureview compliance portal) 
+
+As a Microsoft 365 administrator or compliance administrator, you can evaluate and then tag content in your organization in order to control where it goes, protect it no matter where it is, and ensure that it is preserved and deleted according to your organization's needs. You do this through the application of sensitivity labels, retention labels, and sensitive information type classification. There are various ways to do the discovery, evaluation, and tagging, but the end result is that you may have very large numbers of documents and emails that are tagged and classified with one or both of these labels. After you apply your retention labels and sensitivity labels, you'll want to see how the labels are being used across your tenant and what is being done with those items. The data classification page provides visibility into that body of content, specifically.
+
+## Compliance score calculation
+
+Compliance Manager calculates a compliance score for your organization. This article explains how to interpret your score, what the Data Protection Baseline assessment includes, continuous monitoring, and how different types of actions are managed and scored.
+
+The Compliance Manager dashboard displays your overall compliance score. This score measures your progress in completing recommended improvement actions within controls. Your score can help you understand your current compliance posture. It can also help you prioritize actions based on their potential to reduce risk.
+
+## Microsoft Purview Compliance Manager
+
+Microsoft Purview Compliance Manager is a feature in the Microsoft Purview compliance portal that helps you manage your organization’s multicloud compliance requirements with greater ease and convenience. Compliance Manager can help you throughout your compliance journey, from taking inventory of your data protection risks to managing the complexities of implementing controls, staying current with regulations and certifications, and reporting to auditors.
+
+The Compliance Manager overview page shows your current compliance score, helps you see what needs attention, and guides you to key improvement actions. Below is an example of the overview page:
+
+
+![image](https://user-images.githubusercontent.com/63270579/197610079-c871d900-657d-40fb-be7b-ce446b04c554.png)
+
+
+# Microsoft’s Service Trust Portal and privacy principles
+
+The Microsoft Service Trust Portal provides a variety of content, tools, and other resources about how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization.
+
+The Service Trust Portal is Microsoft's public site for publishing audit reports and other compliance-related information associated with Microsoft’s cloud services. STP users can download audit reports produced by external auditors and gain insight from Microsoft-authored whitepapers that provide details on how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account (Azure Active Directory organization account) and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
+
+
+
+
+
+
+
+
+
  
  
 
