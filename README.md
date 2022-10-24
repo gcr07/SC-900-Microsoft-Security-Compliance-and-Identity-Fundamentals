@@ -1289,5 +1289,21 @@ El Administrador de cumplimiento ofrece a los administradores las funciones que 
 ![image](https://user-images.githubusercontent.com/63270579/195698336-7f15f5b7-e009-4555-bfe7-a40cae4a776d.png)
 
 
+# Estudio 
+
+## Describe the capabilities in the Microsoft Purview governance portal
+
+Microsoft Purview's solutions in the governance portal provide a unified data governance service that helps you manage your on-premises, multicloud, and software-as-a-service (SaaS) data. The Microsoft Purview governance portal allows you to:
+
+Create a holistic, up-to-date map of your data landscape with automated data discovery, sensitive data classification, and end-to-end data lineage.
+Enable data curators to manage and secure your data estate.
+Empower data consumers to find valuable, trustworthy data.
+
+Microsoft Purview automatiza el descubrimiento de datos proporcionando análisis y clasificación de datos como un servicio para activos en todo su patrimonio de datos. Los metadatos y las descripciones de los activos de datos descubiertos se integran en un mapa holístico de su patrimonio de datos. Encima de este mapa, hay aplicaciones especialmente diseñadas que crean entornos para el descubrimiento de datos, la administración de acceso y la información sobre su panorama de datos.
+
+
+![image](https://user-images.githubusercontent.com/63270579/197583145-c993e3ca-d2ae-44dd-a98f-0dd04b4cc226.png)
+
+
 
 
