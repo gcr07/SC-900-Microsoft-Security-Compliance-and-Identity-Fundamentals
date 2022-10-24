@@ -1304,6 +1304,30 @@ Microsoft Purview automatiza el descubrimiento de datos proporcionando análisis
 
 ![image](https://user-images.githubusercontent.com/63270579/197583145-c993e3ca-d2ae-44dd-a98f-0dd04b4cc226.png)
 
+![image](https://user-images.githubusercontent.com/63270579/197585337-db421a1b-17e0-4aa5-a7c6-b0cd5b839cb6.png)
+
+
+## Describe Azure Blueprints 
+
+ Azure Blueprints permite a los arquitectos de la nube y a los grupos centrales de tecnología de la información definir un conjunto repetible de recursos de Azure que implementa y se adhiere a los estándares, patrones y requisitos de una organización. Azure Blueprints hace posible que los equipos de desarrollo construyan y pongan en marcha rápidamente nuevos entornos con la confianza que están creando dentro del cumplimiento de la organización con un conjunto de componentes integrados, como redes, para acelerar el desarrollo y la entrega.
+ 
+ Los blueprints son una forma declarativa de orquestar la implementación de varias plantillas de recursos y otros artefactos como:
+
+Asignaciones de funciones
+Asignaciones de políticas
+Plantillas de Azure Resource Manager (plantillas ARM)
+Grupos de recursos
+
+### Azure Cosmos DB ( NOSQL, Serverless)
+
+Azure Cosmos DB es una base de datos NoSQL completamente administrada para el desarrollo de aplicaciones modernas. Los tiempos de respuesta de milisegundos de un solo dígito y la escalabilidad automática e instantánea garantizan la velocidad a cualquier escala. La continuidad del negocio está asegurada con disponibilidad respaldada por SLA y seguridad de nivel empresarial.
+
+Como un servicio completamente administrado, Azure Cosmos DB le quita la administración de la base de datos con la administración automática, las actualizaciones y la aplicación de parches. También gestiona la gestión de la capacidad con opciones rentables de escalado automático y sin servidor que responden a las necesidades de las aplicaciones para hacer coincidir la capacidad con la demanda.
+ 
+ 
+ 
+ 
+ 
 
 
 
