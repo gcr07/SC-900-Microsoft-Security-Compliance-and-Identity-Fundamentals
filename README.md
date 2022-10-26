@@ -1427,6 +1427,16 @@ The Microsoft Service Trust Portal provides a variety of content, tools, and oth
 
 The Service Trust Portal is Microsoft's public site for publishing audit reports and other compliance-related information associated with Microsoft’s cloud services. STP users can download audit reports produced by external auditors and gain insight from Microsoft-authored whitepapers that provide details on how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account (Azure Active Directory organization account) and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
+# Microsoft 365 Defender
+
+Microsoft 365 Defender es un paquete de defensa empresarial unificado previo y posterior a la infracción que coordina de forma nativa la detección, prevención, investigación y respuesta en puntos finales, identidades, correo electrónico y aplicaciones para brindar protección integrada contra ataques sofisticados.
+
+Con la solución integrada Microsoft 365 Defender, los profesionales de la seguridad pueden unir las señales de amenazas que recibe cada uno de estos productos y determinar el alcance y el impacto total de la amenaza; cómo ingresó al entorno, qué se vio afectado y cómo está afectando actualmente a la organización. Microsoft 365 Defender toma medidas automáticas para evitar o detener el ataque y reparar automáticamente los buzones de correo, los puntos de conexión y las identidades de los usuarios afectado
+
+![image](https://user-images.githubusercontent.com/63270579/198065386-b5617e28-6d54-4d2d-acd5-e3f339986107.png)
+
+
+
 
 
 
