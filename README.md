@@ -1435,6 +1435,50 @@ Con la solución integrada Microsoft 365 Defender, los profesionales de la segur
 
 ![image](https://user-images.githubusercontent.com/63270579/198065386-b5617e28-6d54-4d2d-acd5-e3f339986107.png)
 
+## Microsoft Defender for Office 365 service description
+
+Microsoft Defender for Office 365 is a cloud-based email filtering service that helps protect your organization against advanced threats to email and collaboration tools, like phishing, business email compromise, and malware attacks. Defender for Office 365 also provides investigation, hunting, and remediation capabilities to help security teams efficiently identify, prioritize, investigate, and respond to threats.
+
+## Microsoft Defender for Endpoint
+
+**Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.**
+
+## Microsoft Defender for Cloud Apps ( agente Cloud Access Security Broker)
+
+This is where a Cloud Access Security Broker steps in to address the balance, adding safeguards to your organization's use of cloud services by enforcing your enterprise security policies. As the name suggests, CASBs act as a gatekeeper to broker access in real time between your enterprise users and cloud resources they use, wherever your users are located and regardless of the device they are using.
+
+
+## Microsoft Defender for Identity
+
+Microsoft Defender for Identity (formerly Azure Advanced Threat Protection, also known as Azure ATP) is a cloud-based security solution that leverages your on-premises Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
+
+
+## Microsoft 365 Defender portal ( ES DONDE SE ALOJAN LAS ANTERIORES )
+
+The Microsoft 365 Defender portal combines protection, detection, investigation, and response to email, collaboration, identity, device, and cloud app threats, in a central place. The Microsoft 365 Defender portal emphasizes quick access to information, simpler layouts, and bringing related information together for easier use. It includes:
+
+
+# Describe security capabilities of Microsoft Sentinel
+
+## Microsoft Sentinel a scalable, cloud-native, security information event management (SIEM) and security orchestration automated response (SOAR) solution
+
+
+# Describe security management capabilities of Azure
+
+## Describe Cloud security posture management (CSPM)
+
+Cloud security posture management (CSPM) is a category of automated data security solution that manages monitoring, identification, alerting, and remediation of compliance risks and misconfigurations in cloud environments.
+
+## Describe Microsoft Defender for Cloud (CWPP Cloud Workload Protection Platform ) ( CSPM (Cloud Security Posture Management ) 
+
+Microsoft Defender for Cloud es un recurso de administración de la posición de seguridad en la nube (CSPM) y la plataforma de protección de cargas de trabajo en la nube (CWPP) para todos los recursos de Azure, locales y multinube (Amazon AWS y Google GCP). Defender for Cloud cubre tres necesidades vitales a medida que administra la seguridad de los recursos y las cargas de trabajo en la nube y en el entorno local.
+
+## Describe security baselines for Azure
+
+Security baselines are standardized documents for Azure product offerings, describing the available security capabilities and the optimal security configurations to help you strengthen security through improved tooling, tracking, and security features
+
+
+
 
 
 
