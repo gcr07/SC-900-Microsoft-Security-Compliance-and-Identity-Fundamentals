@@ -1548,7 +1548,37 @@ Este es alrrevez la comparacion se hace on premises y con ayuda de un agente
 
 La federación se recomienda como autenticación para las organizaciones que tienen características avanzadas que actualmente no son compatibles con Azure AD, incluido el inicio de sesión con tarjetas inteligentes o certificados, el inicio de sesión con el servidor de autenticación multifactor (MFA) local y el inicio de sesión con una solución de autenticación de terceros.
  
+ # Azure AD roles and role-based access control
  
+ Azure AD roles control permissions to manage Azure AD resources. For example, allowing user accounts to be created, or billing information to be viewed. Azure AD supports built-in and custom roles.
+
+Managing access using roles is known as role-based access control (RBAC). Azure AD built-in and custom roles are a form of RBAC in that Azure AD roles control access to Azure AD resources. This is referred to as Azure AD RBAC.
+
+## Difference between Azure AD RBAC and Azure RBAC
+
+Azure AD RBAC - Azure AD roles control access to Azure AD resources such as users, groups, and applications.
+Azure RBAC - Azure roles control access to Azure resources such as virtual machines or storage using Azure Resource Management.
+
+## Azure Identity Protection
+
+Herramienta para detectar identity risk 
+
+> Identity Protection is a tool that allows organizations to accomplish three key tasks:
+Automate the detection and remediation of identity-based risks.
+Investigate risks using data in the portal.
+Export risk detection data to third-party utilities for further analysis.
 
 
+
+# Privileged access lifecycle
+
+Monitoring privileged access is a key part of identity governance.Azure AD Privileged Identity Management (PIM) provides extra controls tailored to securing access rights. PIM helps you minimize the number of people who have access to resources across Azure AD
+
+## Azure AD access reviews
+
+Azure Active Directory (AD) access reviews enable organizations to efficiently manage group memberships, access to enterprise applications, and role assignment.
+
+## Azure Privileged Identity Management (PIM)
+
+that enables you to manage, control, and monitor access to important resources in your organization.PIM reduces the chance of a malicious actor getting access by minimizing the number of people who have access to secure information or resources. By time-limiting authorized users
 
