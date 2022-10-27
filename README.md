@@ -1479,12 +1479,36 @@ Security baselines are standardized documents for Azure product offerings, descr
 
 
 
+# Estudio 
 
 
+## Azure Type of identities
+
+Existen varios tipos de identidades en azure de las que destacan ***users, service principals, managed identities, and devices***
 
 
+### User
+
+A user identity is a representation of something that's managed by Azure AD. Employees and guests are represented as users in Azure AD.
+
+### Service principal
+
+A service principal is, essentially, an identity for an application.
+
+### Managed identity
+
+Managed identities are a type of service principal that are automatically managed in Azure AD and eliminate the need for developers to manage credentials. Managed identities provide an identity for applications to use when connecting to Azure resources that support Azure AD authentication and can be used without any extra cost.
 
 
+### Device
+
+A device is a piece of hardware, such as mobile devices, laptops, servers, or printers. A device identity gives administrators information they can use when making access or configuration decisions. Device identities can be set up in different ways in Azure AD.
+
+### Tipos ( Muy probable pregunta de examen)
+
+#### Azure AD registered devices
+
+Son pues los normales lo que estan conectados a un dominio ( The goal of Azure AD registered devices is to provide users with support for bring your own device)}
 
 
 
