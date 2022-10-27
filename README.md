@@ -1524,8 +1524,29 @@ An Azure AD joined device is a device joined to Azure AD through an organization
 
 Organizations with existing on-premises Active Directory implementations can benefit from the functionality provided by Azure AD by implementing hybrid Azure AD joined devices. These devices are joined to your on-premises Active Directory and Azure AD requiring organizational account to sign in to the device
 
+## concept of external identity
 
+Cuando inicias sesion con google o facebook o incluso los usuarios externos podrian iniciar sesion con sus cuentas empresariales.
 
+## concept of hybrid identity
+
+Muchas organizaciones son una combinación de aplicaciones locales y en la nube entonces para estos casos se pueden usar 3 metdos de autenticacion 
+
+### Azure AD Password hash synchronization
+
+Es el normal el NMTL (supongo pero) pero el hash se verifica osea que lo compara en la nube lo que hace que sea high hability
+
+> This enables user authentication to take place against Azure AD rather than against the organization's own Active Directory instance. A benefit of this approach is that password hash synchronization provides highly available cloud authentication. On-premise users can authenticate with Azure AD to access cloud-based applications, even if the on-premise Active Directory goes down.
+
+### Azure AD pass-through authentication.
+
+Este es alrrevez la comparacion se hace on premises y con ayuda de un agente
+
+> pass-through authentication validates users' passwords directly against your on-premises Active Directory. Password validation doesn't happen in the cloud. This can be an important factor for organizations wanting to enforce their on-premises Active Directory security and password policies.
+
+### Federated authentication.
+
+La federación se recomienda como autenticación para las organizaciones que tienen características avanzadas que actualmente no son compatibles con Azure AD, incluido el inicio de sesión con tarjetas inteligentes o certificados, el inicio de sesión con el servidor de autenticación multifactor (MFA) local y el inicio de sesión con una solución de autenticación de terceros.
  
  
 
