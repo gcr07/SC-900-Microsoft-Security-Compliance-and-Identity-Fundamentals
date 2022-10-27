@@ -1559,16 +1559,6 @@ Managing access using roles is known as role-based access control (RBAC). Azure 
 Azure AD RBAC - Azure AD roles control access to Azure AD resources such as users, groups, and applications.
 Azure RBAC - Azure roles control access to Azure resources such as virtual machines or storage using Azure Resource Management.
 
-## Azure Identity Protection
-
-Herramienta para detectar identity risk 
-
-> Identity Protection is a tool that allows organizations to accomplish three key tasks:
-Automate the detection and remediation of identity-based risks.
-Investigate risks using data in the portal.
-Export risk detection data to third-party utilities for further analysis.
-
-
 
 # Privileged access lifecycle
 
@@ -1581,4 +1571,13 @@ Azure Active Directory (AD) access reviews enable organizations to efficiently m
 ## Azure Privileged Identity Management (PIM)
 
 that enables you to manage, control, and monitor access to important resources in your organization.PIM reduces the chance of a malicious actor getting access by minimizing the number of people who have access to secure information or resources. By time-limiting authorized users
+
+## Azure Identity Protection ( portal )
+
+Herramienta para detectar identity risk 
+
+> Identity Protection is a tool that allows organizations to accomplish three key tasks:
+Automate the detection and remediation of identity-based risks.
+Investigate risks using data in the portal.
+Export risk detection data to third-party utilities for further analysis.
 
