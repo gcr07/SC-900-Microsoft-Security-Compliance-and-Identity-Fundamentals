@@ -1499,6 +1499,11 @@ A service principal is, essentially, an identity for an application.
 
 Managed identities are a type of service principal that are automatically managed in Azure AD and eliminate the need for developers to manage credentials. Managed identities provide an identity for applications to use when connecting to Azure resources that support Azure AD authentication and can be used without any extra cost.
 
+System-assigned se asignan a un recurso y se borran automaticamente cuanod se borra el recurso
+
+User-assigned se aplica a varios recursos no solo uno!
+
+ASDFGHJKL22331
 
 ### Device
 
@@ -1510,6 +1515,14 @@ A device is a piece of hardware, such as mobile devices, laptops, servers, or pr
 
 Son pues los normales lo que estan conectados a un dominio ( The goal of Azure AD registered devices is to provide users with support for bring your own device)}
 
+
+#### Azure AD joined
+
+An Azure AD joined device is a device joined to Azure AD through an organizational account, which is then used to sign in to the device. Azure AD joined devices are generally owned by the organization.
+
+#### Hybrid Azure AD joined devices
+
+Organizations with existing on-premises Active Directory implementations can benefit from the functionality provided by Azure AD by implementing hybrid Azure AD joined devices. These devices are joined to your on-premises Active Directory and Azure AD requiring organizational account to sign in to the device
 
 
 
