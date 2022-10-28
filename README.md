@@ -1581,3 +1581,75 @@ Automate the detection and remediation of identity-based risks.
 Investigate risks using data in the portal.
 Export risk detection data to third-party utilities for further analysis.
 
+# basic security capabilities in Azure
+
+## Azure DDoS protection
+
+Protege de ataques DDOS 
+
+## Azure Firewall
+
+Azure Firewall is a managed, cloud-based network security service that protects your Azure virtual network (VNet) resources from attackers. 
+
+Una diferencia notable es que los security gorups protegen los puertos de la maquina virtual y esto protege a nilvel de red.
+
+
+## Describe Web Application Firewall
+
+Web applications are increasingly targeted by malicious attacks that exploit commonly known vulnerabilities. Preventing such attacks in application code is challenging. It can require rigorous maintenance, patching, and monitoring.
+
+## Azure Virtual Network
+
+Azure VNet enables organizations to segment their network. Organizations can create multiple VNets per region per subscription, and multiple smaller networks (subnets) can be created within each VNet.
+
+## Azure Network Security groups
+
+Network security groups (NSGs) let you filter network traffic to and from Azure resources in an Azure virtual network; for example, a virtual machine.
+
+Ahora que conoce los grupos de seguridad de red y Azure Firewall, es posible que se pregunte en qué se diferencian, ya que ambos protegen los recursos de la red virtual. El servicio Azure Firewall complementa la funcionalidad del grupo de seguridad de red. Juntos, proporcionan una mejor seguridad de red de "defensa en profundidad". Los grupos de seguridad de red proporcionan filtrado de tráfico de capa de red distribuida para limitar el tráfico a los recursos dentro de las redes virtuales en cada suscripción. Azure Firewall es un firewall de red centralizado y con estado completo como servicio, que brinda protección a nivel de red y aplicación en diferentes suscripciones y redes virtuales.
+
+### Azure Bastion
+
+Azure Bastion is a service you deploy that lets you connect to a virtual machine using your browser and the Azure portal.
+
+## Just in time
+
+Cuando un usuario solicita acceso a una VM, Defender for Cloud verifica que el usuario tenga permisos de control de acceso basado en roles de Azure (Azure RBAC) para esa VM. Si se aprueba la solicitud, Defender for Cloud configura los NSG y Azure Firewall para permitir el tráfico entrante a los puertos seleccionados desde la dirección IP (o rango) correspondiente, durante el tiempo que se especificó. Una vez transcurrido el tiempo, Defender for Cloud restaura los NSG a sus estados anteriores. Las conexiones que ya están establecidas no se interrumpen.
+
+JIT requires Microsoft Defender for servers to be enabled on the subscription.
+
+## Describe ways Azure encrypts data
+
+### Azure Storage Service Encryption
+
+ayuda a proteger los datos en reposo mediante el cifrado automático antes de conservarlos en discos administrados por Azure, Azure Blob Storage, Azure Files o Azure Queue Storage, y descifra los datos antes de recuperarlos. ( nota osea especificamente datos en reposo quiza que no se usaran)
+
+### Azure Disk Encryption
+
+lo ayuda a cifrar discos de máquinas virtuales IaaS de Windows y Linux. Azure Disk Encryption usa la función BitLocker estándar del sector de Windows y la función dm-crypt de Linux para proporcionar cifrado de volumen para el sistema operativo y los discos de datos.
+
+### Transparent data encryption (TDE)
+
+ayuda a proteger Azure SQL Database y Azure Data Warehouse contra la amenaza de actividad malintencionada. Realiza el cifrado y descifrado en tiempo real de la base de datos, las copias de seguridad asociadas y los archivos de registro de transacciones en reposo sin necesidad de realizar cambios en la aplicación.
+
+## Azure Key Vault
+
+ Centralized cloud service for storing your application secrets. Key Vault helps you control your applications' secrets by keeping them in a single, central location
+
+# Microsoft Defender for Cloud
+
+Es una solicion para seguir la postura de (Cloud security posture management) CSPM ( Gestión de la postura de seguridad en la nube) para mejorar la postura 
+de seguridad Refuerza la postura de seguridad de sus recursos en la nube Defender for Cloud protege las cargas de trabajo que se ejecutan en Azure, híbrido y otras plataformas en la nube.
+
+## Cloud workload protection (CWP)
+
+Proteccion a cargas de trabajo en la nube 
+Microsoft Defender for Cloud is able to detect and resolve threats to resources, workloads, and services.
+
+##  Azure Security Benchmark 
+
+son documentos que proporcionan mejores practicas  proporciona mejores prácticas prescriptivas y recomendaciones para ayudar a mejorar la seguridad de las cargas de trabajo, los datos y los servicios en Azure.
+
+## Microsoft Sentinel
+
+ Your estate has many different data sources where data is stored. Which tool should be used with Microsoft Sentinel to quickly gain insights across your data as soon as a data source is connected? *** Azure Monitor Workbooks. ****
