@@ -1660,4 +1660,16 @@ son documentos que proporcionan mejores practicas  proporciona mejores práctica
  
  una suite de defensa empresarial unificada previa y posterior a la vulneración que coordina de forma nativa la detección, la prevención, la investigación y la respuesta en puntos finales, identidades, correo electrónico y aplicaciones para brindar protección integrada contra ataques sofisticados
  
+ # Resumen de que es Microsoft 365 Defender 
  
+ ![image](https://user-images.githubusercontent.com/63270579/198736970-115f2141-a2eb-4fd9-9868-2ca1bfcd7108.png)
+
+## Microsoft Defender for Cloud Apps
+
+Es un agente que detecta y persigue comportamientos anomalos no se donde se instala la verdad le dicen CASB
+
+## Microsoft Defender for Identity
+
+Microsoft Defender for Identity es una solución de seguridad basada en la nube. Utiliza sus datos locales de Active Directory (llamados señales) para identificar, detectar e investigar amenazas avanzadas, identidades comprometidas y acciones internas maliciosas dirigidas a su organización.
+
+
