@@ -1653,3 +1653,11 @@ son documentos que proporcionan mejores practicas  proporciona mejores práctica
 ## Microsoft Sentinel
 
  Your estate has many different data sources where data is stored. Which tool should be used with Microsoft Sentinel to quickly gain insights across your data as soon as a data source is connected? *** Azure Monitor Workbooks. ****
+ 
+ # Microsoft 365 Defender ( es mas una suite como para proteger datos )
+ 
+ a unified pre- and post-breach enterprise defense suite that natively coordinates detection, prevention, investigation, and response across endpoints, identities, email, and applications to provide integrated protection against sophisticated attacks.
+ 
+ una suite de defensa empresarial unificada previa y posterior a la vulneración que coordina de forma nativa la detección, la prevención, la investigación y la respuesta en puntos finales, identidades, correo electrónico y aplicaciones para brindar protección integrada contra ataques sofisticados
+ 
+ 
