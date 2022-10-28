@@ -1672,4 +1672,16 @@ Es un agente que detecta y persigue comportamientos anomalos no se donde se inst
 
 Microsoft Defender for Identity es una solución de seguridad basada en la nube. Utiliza sus datos locales de Active Directory (llamados señales) para identificar, detectar e investigar amenazas avanzadas, identidades comprometidas y acciones internas maliciosas dirigidas a su organización.
 
+##  Microsoft's approach to privacy
+
+
+![image](https://user-images.githubusercontent.com/63270579/198739955-ec0615e1-d736-4d40-8034-9c1fe905b6b4.png)
+
+# Microsoft Pure view ( cumplimiento por ejmeplo papeles que deben de durar 5 años antes de destruirse)
+
+Explore the Microsoft Purview compliance portal, the portal for organizations to manage their compliance needs. Learn about the Compliance Manager and compliance score, which can help organizations manage, simplify, and improve compliance across their organization.
+
+# Compliance Manager 
+
+can help organizations throughout their compliance journey, from taking inventory of data protection risks, to managing the complexities of implementing controls, staying current with regulations and certifications, and reporting to auditors.
 
